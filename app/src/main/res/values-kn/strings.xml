@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ========================================================= -->
+    <!-- APP -->
+    <!-- ========================================================= -->
+
+    <string name="app_name">ಪ್ಲಾಂಟ್ ಗಾರ್ಡ್ AI</string>
+
+
+    <!-- ========================================================= -->
+    <!-- SPLASH -->
+    <!-- ========================================================= -->
+
+    <string name="splash_title">PlantGuardAI</string>
+    <string name="splash_subtitle">AI ಆಧಾರಿತ ಸಸ್ಯ ರೋಗ ಪತ್ತೆ</string>
+    <string name="developer_name">ಅಭಿವೃದ್ಧಿಪಡಿಸಿದವರು</string>
+    <string name="developer_value">ಭರತ್ ಎ</string>
+    <string name="department">ಕಂಪ್ಯೂಟರ್ ಸೈನ್ಸ್ ಮತ್ತು ಎಂಜಿನಿಯರಿಂಗ್</string>
+    <string name="logo_description">PlantGuardAI ಲೋಗೋ</string>
+
+
+    <!-- ========================================================= -->
+    <!-- REGISTER -->
+    <!-- ========================================================= -->
+
+    <string name="create_account">ಖಾತೆ ರಚಿಸಿ</string>
+    <string name="full_name">ಪೂರ್ಣ ಹೆಸರು</string>
+    <string name="login_prompt">ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೇ? ಲಾಗಿನ್ ಮಾಡಿ</string>
+
+    <string name="enter_name">ನಿಮ್ಮ ಹೆಸರನ್ನು ನಮೂದಿಸಿ</string>
+    <string name="password_length">ಪಾಸ್ವರ್ಡ್ ಕನಿಷ್ಠ 6 ಅಕ್ಷರಗಳಿರಬೇಕು</string>
+    <string name="password_not_match">ಪಾಸ್ವರ್ಡ್‌ಗಳು ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ</string>
+    <string name="registration_success">ನೋಂದಣಿ ಯಶಸ್ವಿಯಾಗಿದೆ 🌿</string>
+
+
+    <!-- ========================================================= -->
+    <!-- LOGIN -->
+    <!-- ========================================================= -->
+
+    <string name="welcome_title">PlantGuardAI ಗೆ ಸ್ವಾಗತ</string>
+
+    <string name="login">ಲಾಗಿನ್</string>
+    <string name="register">ನೋಂದಣಿ</string>
+
+    <string name="email">ಇಮೇಲ್</string>
+    <string name="password">ಪಾಸ್ವರ್ಡ್</string>
+    <string name="confirm_password">ಪಾಸ್ವರ್ಡ್ ದೃಢೀಕರಿಸಿ</string>
+
+    <string name="forgot_password">ಪಾಸ್ವರ್ಡ್ ಮರೆತಿರುವಿರಾ?</string>
+
+    <string name="dont_have_account">ಖಾತೆ ಇಲ್ಲವೇ?</string>
+    <string name="already_have_account">ಈಗಾಗಲೇ ಖಾತೆ ಇದೆಯೇ?</string>
+
+    <string name="register_prompt">ಖಾತೆ ಇಲ್ಲವೇ? ನೋಂದಣಿ ಮಾಡಿ</string>
+
+    <string name="or_separator">──────── ಅಥವಾ ────────</string>
+
+    <string name="enter_email_first">ಮೊದಲು ನಿಮ್ಮ ಇಮೇಲ್ ನಮೂದಿಸಿ</string>
+    <string name="enter_email">ಇಮೇಲ್ ನಮೂದಿಸಿ</string>
+    <string name="enter_valid_email">ಮಾನ್ಯವಾದ ಇಮೇಲ್ ನಮೂದಿಸಿ</string>
+    <string name="enter_password">ಪಾಸ್ವರ್ಡ್ ನಮೂದಿಸಿ</string>
+
+    <string name="password_reset_sent">
+        ಪಾಸ್ವರ್ಡ್ ಮರುಹೊಂದಿಸುವ ಇಮೇಲ್ ಯಶಸ್ವಿಯಾಗಿ ಕಳುಹಿಸಲಾಗಿದೆ.
+    </string>
+
+    <string name="google_signin_failed">Google ಸೈನ್-ಇನ್ ವಿಫಲವಾಗಿದೆ</string>
+    <string name="google_signin_success">Google ಸೈನ್-ಇನ್ ಯಶಸ್ವಿಯಾಗಿದೆ 🌿</string>
+
+    <string name="welcome_back">ಮತ್ತೆ ಸ್ವಾಗತ! 🌿</string>
+
+    <string name="authentication_failed">ದೃಢೀಕರಣ ವಿಫಲವಾಗಿದೆ</string>
+
+
+    <!-- ========================================================= -->
+    <!-- MAIN / HOME SCREEN -->
+    <!-- ========================================================= -->
+
+    <string name="home_title">🌱 ಪ್ಲಾಂಟ್ ಗಾರ್ಡ್ AI</string>
+
+    <string name="home_subtitle">
+        ಸ್ಮಾರ್ಟ್ ಸಸ್ಯ ಮೇಲ್ವಿಚಾರಣಾ ವ್ಯವಸ್ಥೆ
+    </string>
+
+    <string name="plant_environment">ಸಸ್ಯ ಪರಿಸರ</string>
+
+    <string name="plant_1">ಸಸ್ಯ 1</string>
+    <string name="plant_2">ಸಸ್ಯ 2</string>
+
+    <string name="select_plant">ಸಸ್ಯವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="plant_name">ಸಸ್ಯದ ಹೆಸರು</string>
+
+    <string name="system_monitoring_active">
+        ಸಿಸ್ಟಮ್ ಮೇಲ್ವಿಚಾರಣೆ ಸಕ್ರಿಯವಾಗಿದೆ
+    </string>
+
+    <string name="quick_actions">ತ್ವರಿತ ಕಾರ್ಯಗಳು</string>
+
+
+    <!-- ========================================================= -->
+    <!-- SENSOR NAMES -->
+    <!-- ========================================================= -->
+
+    <string name="temperature">🌡 ತಾಪಮಾನ</string>
+    <string name="humidity">💧 ಆರ್ದ್ರತೆ</string>
+    <string name="soil_moisture">🌱 ಮಣ್ಣಿನ ತೇವಾಂಶ</string>
+    <string name="light_level">☀ ಬೆಳಕಿನ ಮಟ್ಟ</string>
+    <string name="water_pump">🚰 ನೀರಿನ ಪಂಪ್</string>
+
+
+    <!-- ========================================================= -->
+    <!-- SENSOR VALUES -->
+    <!-- ========================================================= -->
+
+    <string name="temperature_value">28 °C</string>
+    <string name="temperature_low">27 °C</string>
+
+    <string name="humidity_value">65 %</string>
+    <string name="humidity_high">70 %</string>
+
+    <string name="soil_value">72 %</string>
+    <string name="soil_high">80 %</string>
+
+
+    <!-- ========================================================= -->
+    <!-- LIGHT LEVEL -->
+    <!-- ========================================================= -->
+
+    <string name="good">ಉತ್ತಮ</string>
+    <string name="low">ಕಡಿಮೆ</string>
+    <string name="high">ಹೆಚ್ಚು</string>
+
+
+    <!-- ========================================================= -->
+    <!-- PUMP -->
+    <!-- ========================================================= -->
+
+    <string name="pump_status">ಸ್ಥಿತಿ :</string>
+    <string name="on">ಆನ್</string>
+    <string name="off">ಆಫ್</string>
+
+
+    <!-- ========================================================= -->
+    <!-- WELCOME -->
+    <!-- ========================================================= -->
+
+    <string name="welcome_user">ಸ್ವಾಗತ, %1$s 🌿</string>
+    <string name="logged_out">ಯಶಸ್ವಿಯಾಗಿ ಲಾಗ್ ಔಟ್ ಆಗಿದೆ</string>
+
+
+    <!-- ========================================================= -->
+    <!-- QUICK ACTIONS -->
+    <!-- ========================================================= -->
+
+    <string name="scan_plant">ಸಸ್ಯವನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
+    <string name="history">ಇತಿಹಾಸ</string>
+    <string name="settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="logout">ಲಾಗ್ ಔಟ್</string>
+
+
+    <!-- ========================================================= -->
+    <!-- PLANT STATUS -->
+    <!-- ========================================================= -->
+
+    <string name="healthy">ಆರೋಗ್ಯಕರ</string>
+    <string name="disease">ರೋಗ</string>
+    <string name="confidence">ನಿಖರತೆ</string>
+
+
+    <!-- ========================================================= -->
+    <!-- SUPPORTED PLANTS -->
+    <!-- ========================================================= -->
+
+    <string name="apple">ಸೇಬು</string>
+
+    <string name="apple_diseases">
+        ಸೇಬು ಸ್ಕ್ಯಾಬ್\nಕಪ್ಪು ಕೊಳೆ\nಸೀಡರ್ ಸೇಬು ರಸ್ಟ್
+    </string>
+
+    <string name="blueberry">ಬ್ಲೂಬೆರ್ರಿ</string>
+    <string name="blueberry_diseases">ಆರೋಗ್ಯಕರ</string>
+
+    <string name="cherry">ಚೆರಿ</string>
+
+    <string name="cherry_diseases">
+        ಪುಡಿಯಂತಹ ಶಿಲೀಂಧ್ರ\nಆರೋಗ್ಯಕರ
+    </string>
+
+    <string name="corn">ಜೋಳ</string>
+
+    <string name="corn_diseases">
+        ಬೂದು ಎಲೆ ಕಲೆ\nಸಾಮಾನ್ಯ ರಸ್ಟ್\nಉತ್ತರ ಎಲೆ ಬ್ಲೈಟ್\nಆರೋಗ್ಯಕರ
+    </string>
+
+    <string name="grape">ದ್ರಾಕ್ಷಿ</string>
+
+    <string name="grape_diseases">
+        ಕಪ್ಪು ಕೊಳೆ\nಎಸ್ಕಾ\nಎಲೆ ಬ್ಲೈಟ್\nಆರೋಗ್ಯಕರ
+    </string>
+
+    <string name="orange">ಕಿತ್ತಳೆ</string>
+    <string name="orange_diseases">ಸಿಟ್ರಸ್ ಗ್ರೀನಿಂಗ್</string>
+
+    <string name="peach">ಪೀಚ್</string>
+
+    <string name="peach_diseases">
+        ಬ್ಯಾಕ್ಟೀರಿಯಾ ಕಲೆ\nಆರೋಗ್ಯಕರ
+    </string>
+
+    <string name="bell_pepper">ಕ್ಯಾಪ್ಸಿಕಂ</string>
+
+    <string name="pepper_diseases">
+        ಬ್ಯಾಕ್ಟೀರಿಯಾ ಕಲೆ\nಆರೋಗ್ಯಕರ
+    </string>
+
+    <string name="potato">ಆಲೂಗಡ್ಡೆ</string>
+
+    <string name="potato_diseases">
+        ಆರಂಭಿಕ ಬ್ಲೈಟ್\nತಡವಾದ ಬ್ಲೈಟ್\nಆರೋಗ್ಯಕರ
+    </string>
+
+    <string name="raspberry">ರಾಸ್ಪ್‌ಬೆರಿ</string>
+    <string name="raspberry_diseases">ಆರೋಗ್ಯಕರ</string>
+
+    <string name="soybean">ಸೋಯಾಬೀನ್</string>
+    <string name="soybean_diseases">ಆರೋಗ್ಯಕರ</string>
+
+    <string name="squash">ಸ್ಕ್ವಾಶ್</string>
+    <string name="squash_diseases">ಪುಡಿಯಂತಹ ಶಿಲೀಂಧ್ರ</string>
+
+    <string name="strawberry">ಸ್ಟ್ರಾಬೆರಿ</string>
+
+    <string name="strawberry_diseases">
+        ಎಲೆ ಸುಡುವಿಕೆ\nಆರೋಗ್ಯಕರ
+    </string>
+
+    <string name="tomato">ಟೊಮೇಟೊ</string>
+
+    <string name="tomato_diseases">
+        ಬ್ಯಾಕ್ಟೀರಿಯಾ ಕಲೆ\nಆರಂಭಿಕ ಬ್ಲೈಟ್\nತಡವಾದ ಬ್ಲೈಟ್\nಎಲೆ ಹುಳು\nಸೆಪ್ಟೋರಿಯಾ ಎಲೆ ಕಲೆ\nಸ್ಪೈಡರ್ ಮೈಟ್ಸ್\nಟಾರ್ಗೆಟ್ ಸ್ಪಾಟ್\nಹಳದಿ ಎಲೆ ಕುಗ್ಗುವ ವೈರಸ್\nಟೊಮೇಟೊ ಮೋಸಾಯಿಕ್ ವೈರಸ್\nಆರೋಗ್ಯಕರ
+    </string>
+
+    <string name="supported_plants_title">
+        🌿 ಬೆಂಬಲಿತ ಸಸ್ಯಗಳು
+    </string>
+
+    <string name="supported_plants_subtitle">
+        14 ಸಸ್ಯಗಳು • 38 ರೋಗ ವರ್ಗಗಳಿಗೆ ಬೆಂಬಲ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- PLANT DETAILS -->
+    <!-- ========================================================= -->
+
+    <string name="plant_image">ಸಸ್ಯದ ಚಿತ್ರ</string>
+
+    <string name="supported_diseases">🦠 ಬೆಂಬಲಿತ ರೋಗಗಳು</string>
+
+    <string name="care_tips">🌱 ಆರೈಕೆ ಸಲಹೆಗಳು</string>
+
+    <string name="prevention">🛡 ತಡೆಗಟ್ಟುವಿಕೆ</string>
+
+    <string name="treatment">💊 ಚಿಕಿತ್ಸೆ</string>
+
+
+    <!-- ========================================================= -->
+    <!-- APPLE -->
+    <!-- ========================================================= -->
+
+    <string name="apple_care">
+        • ಸೋಂಕಿತ ಎಲೆಗಳು ಮತ್ತು ಕೊಂಬೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಮರದ ಸುತ್ತ ಉತ್ತಮ ಗಾಳಿಯ ಹರಿವು ಇರುವಂತೆ ನೋಡಿಕೊಳ್ಳಿ\n• ಅಗತ್ಯವಿದ್ದಾಗ ಮಾತ್ರ ನೀರು ಹಾಕಿ
+    </string>
+
+    <string name="apple_prevention">
+        • ಬಿದ್ದ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಮರಗಳ ನಡುವೆ ಸೂಕ್ತ ಅಂತರವನ್ನು ಕಾಪಾಡಿ\n• ರೋಗ ನಿರೋಧಕ ತಳಿಗಳನ್ನು ಬಳಸಿ
+    </string>
+
+    <string name="apple_treatment">
+        • ತಾಮ್ರ ಆಧಾರಿತ ಶಿಲೀಂಧ್ರನಾಶಕವನ್ನು ಸಿಂಪಡಿಸಿ\n• ಗಂಧಕ (Sulfur) ಸಿಂಪಡಣೆ ಮಾಡಿ\n• ಸೋಂಕಿತ ಕೊಂಬೆಗಳನ್ನು ಕತ್ತರಿಸಿ ತೆಗೆದುಹಾಕಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- BLUEBERRY -->
+    <!-- ========================================================= -->
+
+    <string name="blueberry_care">
+        • ಮಣ್ಣಿನ ಆಮ್ಲೀಯತೆಯನ್ನು ಕಾಪಾಡಿ\n• ನಿಯಮಿತವಾಗಿ ನೀರು ಹಾಕಿ\n• ಸಸ್ಯದ ಸುತ್ತ ಮಲ್ಚ್ ಹಾಸಿ
+    </string>
+
+    <string name="blueberry_prevention">
+        • ನೀರು ನಿಲ್ಲದಂತೆ ನೋಡಿಕೊಳ್ಳಿ\n• ಸೋಂಕಿತ ಕೊಂಬೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಸರಿಯಾದ ಅಂತರವನ್ನು ಕಾಪಾಡಿ
+    </string>
+
+    <string name="blueberry_treatment">
+        • ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಅಗತ್ಯವಿದ್ದರೆ ಶಿಲೀಂಧ್ರನಾಶಕ ಬಳಸಿ\n• ನೀರು ಹೊರಹೋಗುವ ವ್ಯವಸ್ಥೆಯನ್ನು ಸುಧಾರಿಸಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- CHERRY -->
+    <!-- ========================================================= -->
+
+    <string name="cherry_care">
+        • ಬೇಸಿಗೆಯಲ್ಲಿ ನಿಯಮಿತವಾಗಿ ನೀರು ಹಾಕಿ\n• ಪ್ರತಿ ವರ್ಷ ಕೊಂಬೆಗಳನ್ನು ಕತ್ತರಿಸಿ\n• ಸಾಕಷ್ಟು ಸೂರ್ಯನ ಬೆಳಕು ಒದಗಿಸಿ
+    </string>
+
+    <string name="cherry_prevention">
+        • ಬಿದ್ದ ಎಲೆಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಿ\n• ಮೇಲಿನಿಂದ ನೀರು ಹಾಕುವುದನ್ನು ತಪ್ಪಿಸಿ\n• ಕೀಟಗಳಿಗಾಗಿ ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ
+    </string>
+
+    <string name="cherry_treatment">
+        • ಶಿಫಾರಸು ಮಾಡಿದ ಶಿಲೀಂಧ್ರನಾಶಕ ಬಳಸಿ\n• ಸೋಂಕಿತ ಕೊಂಬೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಸಸ್ಯವನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- CORN -->
+    <!-- ========================================================= -->
+
+    <string name="corn_care">
+        • ನಿಯಮಿತವಾಗಿ ನೀರು ಹಾಕಿ\n• ನೈಟ್ರೋಜನ್ ಗೊಬ್ಬರ ಬಳಸಿ\n• ಕಳೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ
+    </string>
+
+    <string name="corn_prevention">
+        • ಬೆಳೆ ಪರಿವರ್ತನೆ ಮಾಡಿ\n• ಸೋಂಕಿತ ಸಸಿಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಗುಣಮಟ್ಟದ ಬೀಜಗಳನ್ನು ಬಳಸಿ
+    </string>
+
+    <string name="corn_treatment">
+        • ಶಿಫಾರಸು ಮಾಡಿದ ಶಿಲೀಂಧ್ರನಾಶಕ ಬಳಸಿ\n• ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಹೊಲವನ್ನು ಸ್ವಚ್ಛವಾಗಿಡಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- GRAPE -->
+    <!-- ========================================================= -->
+
+    <string name="grape_care">
+        • ಪ್ರತಿ ವರ್ಷ ಲತೆಯನ್ನು ಕತ್ತರಿಸಿ\n• ಬೆಂಬಲ ವ್ಯವಸ್ಥೆ ಒದಗಿಸಿ\n• ಅತಿಯಾಗಿ ನೀರು ಹಾಕಬೇಡಿ
+    </string>
+
+    <string name="grape_prevention">
+        • ಉತ್ತಮ ಗಾಳಿಯ ಹರಿವನ್ನು ಕಾಪಾಡಿ\n• ಎಲೆಗಳು ಒದ್ದೆಯಾಗದಂತೆ ನೋಡಿಕೊಳ್ಳಿ\n• ಸೋಂಕಿತ ಲತೆಯನ್ನು ತೆಗೆದುಹಾಕಿ
+    </string>
+
+    <string name="grape_treatment">
+        • ತಾಮ್ರ ಆಧಾರಿತ ಶಿಲೀಂಧ್ರನಾಶಕ ಬಳಸಿ\n• ಸೋಂಕಿತ ಲತೆಯನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಹಾನಿಗೊಳಗಾದ ಚಿಗುರುಗಳನ್ನು ಕತ್ತರಿಸಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- ORANGE -->
+    <!-- ========================================================= -->
+
+    <string name="orange_care">
+        • ಆಳವಾಗಿ ನೀರು ಹಾಕಿ\n• ಪ್ರತಿ ಋತುವಿನಲ್ಲಿ ಗೊಬ್ಬರ ಹಾಕಿ\n• ಸಾಕಷ್ಟು ಸೂರ್ಯನ ಬೆಳಕು ಒದಗಿಸಿ
+    </string>
+
+    <string name="orange_prevention">
+        • ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ\n• ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಿಸಿ\n• ಸೋಂಕಿತ ಕೊಂಬೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ
+    </string>
+
+    <string name="orange_treatment">
+        • ಸೋಂಕಿತ ಕೊಂಬೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಸೈಲಿಡ್ ಕೀಟಗಳನ್ನು ನಿಯಂತ್ರಿಸಿ\n• ಸೂಕ್ತ ಔಷಧಿ ಬಳಸಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- PEACH -->
+    <!-- ========================================================= -->
+
+    <string name="peach_care">
+        • ಪ್ರತಿ ಋತುವಿನಲ್ಲಿ ಕೊಂಬೆಗಳನ್ನು ಕತ್ತರಿಸಿ\n• ಆಳವಾಗಿ ನೀರು ಹಾಕಿ\n• ಸಮತೋಲನ ಗೊಬ್ಬರ ಬಳಸಿ
+    </string>
+
+    <string name="peach_prevention">
+        • ಬಿದ್ದ ಹಣ್ಣುಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ನಿಯಮಿತವಾಗಿ ಕೊಂಬೆಗಳನ್ನು ಕತ್ತರಿಸಿ\n• ಕೀಟಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಿ
+    </string>
+
+    <string name="peach_treatment">
+        • ಶಿಫಾರಸು ಮಾಡಿದ ಶಿಲೀಂಧ್ರನಾಶಕ ಬಳಸಿ\n• ಸೋಂಕಿತ ಕೊಂಬೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಮರದ ಆರೋಗ್ಯವನ್ನು ಪರಿಶೀಲಿಸಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- BELL PEPPER -->
+    <!-- ========================================================= -->
+
+    <string name="bell_pepper_care">
+        • ನಿಯಮಿತವಾಗಿ ನೀರು ಹಾಕಿ\n• ಸಾಕಷ್ಟು ಸೂರ್ಯನ ಬೆಳಕು ಒದಗಿಸಿ\n• ಹಾನಿಗೊಳಗಾದ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ
+    </string>
+
+    <string name="bell_pepper_prevention">
+        • ಮೇಲಿನಿಂದ ನೀರು ಹಾಕುವುದನ್ನು ತಪ್ಪಿಸಿ\n• ಬೆಳೆ ಪರಿವರ್ತನೆ ಮಾಡಿ\n• ಎಲೆಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ
+    </string>
+
+    <string name="bell_pepper_treatment">
+        • ತಾಮ್ರ ಆಧಾರಿತ ಶಿಲೀಂಧ್ರನಾಶಕ ಬಳಸಿ\n• ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಗಾಳಿಯ ಹರಿವನ್ನು ಸುಧಾರಿಸಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- POTATO -->
+    <!-- ========================================================= -->
+
+    <string name="potato_care">
+        • ಮಣ್ಣನ್ನು ತೇವವಾಗಿಡಿ\n• ಸಸಿಗಳ ಸುತ್ತ ಮಣ್ಣು ಹಾಕಿ\n• ನೀರು ನಿಲ್ಲದಂತೆ ನೋಡಿಕೊಳ್ಳಿ
+    </string>
+
+    <string name="potato_prevention">
+        • ಪ್ರಮಾಣಿತ ಬೀಜ ಆಲೂಗಡ್ಡೆ ಬಳಸಿ\n• ಬೆಳೆ ಪರಿವರ್ತನೆ ಮಾಡಿ\n• ಅತಿಯಾದ ತೇವಾಂಶ ತಪ್ಪಿಸಿ
+    </string>
+
+    <string name="potato_treatment">
+        • ತಾಮ್ರ ಆಧಾರಿತ ಶಿಲೀಂಧ್ರನಾಶಕ ಬಳಸಿ\n• ಸೋಂಕಿತ ಸಸಿಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ನೀರು ಹರಿಯುವ ವ್ಯವಸ್ಥೆ ಸುಧಾರಿಸಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- RASPBERRY -->
+    <!-- ========================================================= -->
+
+    <string name="raspberry_care">
+        • ಹಳೆಯ ಕೊಂಬೆಗಳನ್ನು ಕತ್ತರಿಸಿ\n• ನಿಯಮಿತವಾಗಿ ನೀರು ಹಾಕಿ\n• ಉತ್ತಮ ನೀರು ಹರಿವು ಒದಗಿಸಿ
+    </string>
+
+    <string name="raspberry_prevention">
+        • ಉತ್ತಮ ಗಾಳಿಯ ಹರಿವನ್ನು ಕಾಪಾಡಿ\n• ಸೋಂಕಿತ ಕೊಂಬೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಪ್ರದೇಶವನ್ನು ಸ್ವಚ್ಛವಾಗಿಡಿ
+    </string>
+
+    <string name="raspberry_treatment">
+        • ಸೋಂಕಿತ ಕೊಂಬೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಅಗತ್ಯವಿದ್ದರೆ ಶಿಲೀಂಧ್ರನಾಶಕ ಬಳಸಿ\n• ಗಾಳಿಯ ಹರಿವನ್ನು ಸುಧಾರಿಸಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- SOYBEAN -->
+    <!-- ========================================================= -->
+
+    <string name="soybean_care">
+        • ಸರಿಯಾದ ಅಂತರ ಕಾಪಾಡಿ\n• ಹೂ ಬಿಡುವ ಸಮಯದಲ್ಲಿ ನೀರು ಹಾಕಿ\n• ಹೊಲವನ್ನು ಕಳೆರಹಿತವಾಗಿಡಿ
+    </string>
+
+    <string name="soybean_prevention">
+        • ರೋಗರಹಿತ ಬೀಜಗಳನ್ನು ಬಳಸಿ\n• ಬೆಳೆ ಪರಿವರ್ತನೆ ಮಾಡಿ\n• ಹೊಲವನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ
+    </string>
+
+    <string name="soybean_treatment">
+        • ಸೂಕ್ತ ಶಿಲೀಂಧ್ರನಾಶಕ ಬಳಸಿ\n• ಸೋಂಕಿತ ಸಸಿಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಬೆಳೆಯನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- SQUASH -->
+    <!-- ========================================================= -->
+
+    <string name="squash_care">
+        • ಮಣ್ಣಿನ ಮಟ್ಟದಲ್ಲಿ ನೀರು ಹಾಕಿ\n• ಸಾಕಷ್ಟು ಸೂರ್ಯನ ಬೆಳಕು ಒದಗಿಸಿ\n• ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ
+    </string>
+
+    <string name="squash_prevention">
+        • ಎಲೆಗಳು ಒದ್ದೆಯಾಗದಂತೆ ನೋಡಿಕೊಳ್ಳಿ\n• ಸೋಂಕಿತ ಸಸಿಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಸರಿಯಾದ ಅಂತರ ಕಾಪಾಡಿ
+    </string>
+
+    <string name="squash_treatment">
+        • ಗಂಧಕ ಸಿಂಪಡಣೆ ಮಾಡಿ\n• ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಮೇಲಿನಿಂದ ನೀರು ಹಾಕುವುದನ್ನು ತಪ್ಪಿಸಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- STRAWBERRY -->
+    <!-- ========================================================= -->
+
+    <string name="strawberry_care">
+        • ಮಣ್ಣನ್ನು ತೇವವಾಗಿಡಿ\n• ಸಸ್ಯದ ಸುತ್ತ ಮಲ್ಚ್ ಹಾಸಿ\n• ಹಳೆಯ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ
+    </string>
+
+    <string name="strawberry_prevention">
+        • ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಸಸಿಗಳನ್ನು ಅತಿಯಾಗಿ ನೆಡಬೇಡಿ\n• ಬೆಳಿಗ್ಗೆ ನೀರು ಹಾಕಿ
+    </string>
+
+    <string name="strawberry_treatment">
+        • ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಶಿಲೀಂಧ್ರನಾಶಕ ಬಳಸಿ\n• ಉತ್ತಮ ಗಾಳಿಯ ಹರಿವು ಒದಗಿಸಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- TOMATO -->
+    <!-- ========================================================= -->
+
+    <string name="tomato_care">
+        • ಬೇರು ಭಾಗಕ್ಕೆ ನೀರು ಹಾಕಿ\n• ಕಂಬಗಳ ಸಹಾಯ ನೀಡಿ\n• ಹಾನಿಗೊಳಗಾದ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ
+    </string>
+
+    <string name="tomato_prevention">
+        • ಎಲೆಗಳು ಒದ್ದೆಯಾಗದಂತೆ ನೋಡಿಕೊಳ್ಳಿ\n• ಬೆಳೆ ಪರಿವರ್ತನೆ ಮಾಡಿ\n• ಉತ್ತಮ ಗಾಳಿಯ ಹರಿವನ್ನು ಕಾಪಾಡಿ
+    </string>
+
+    <string name="tomato_treatment">
+        • ತಾಮ್ರ ಆಧಾರಿತ ಶಿಲೀಂಧ್ರನಾಶಕ ಬಳಸಿ\n• ಮ್ಯಾಂಕೊಜೆಬ್ ಔಷಧಿಯನ್ನು ಸಿಂಪಡಿಸಿ\n• ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- DEFAULT PREVIEW -->
+    <!-- ========================================================= -->
+
+    <string name="sample_care">
+        • ನಿಯಮಿತವಾಗಿ ನೀರು ಹಾಕಿ\n• ಸೋಂಕಿತ ಎಲೆಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಉತ್ತಮ ಗಾಳಿಯ ಹರಿವನ್ನು ಕಾಪಾಡಿ
+    </string>
+
+    <string name="sample_prevention">
+        • ಅತಿಯಾಗಿ ನೀರು ಹಾಕುವುದನ್ನು ತಪ್ಪಿಸಿ\n• ಆರೋಗ್ಯಕರ ಸಸಿಗಳನ್ನು ಬಳಸಿ\n• ನಿಯಮಿತವಾಗಿ ಕೊಂಬೆಗಳನ್ನು ಕತ್ತರಿಸಿ
+    </string>
+
+    <string name="sample_treatment">
+        • ಶಿಫಾರಸು ಮಾಡಿದ ಶಿಲೀಂಧ್ರನಾಶಕವನ್ನು ಬಳಸಿ\n• ಸೋಂಕಿತ ಭಾಗಗಳನ್ನು ತೆಗೆದುಹಾಕಿ\n• ಸಸ್ಯದ ಆರೋಗ್ಯವನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ
+    </string>
+
+
+    <!-- ========================================================= -->
+    <!-- HISTORY -->
+    <!-- ========================================================= -->
+
+    <string name="history_title">ಹಿಂದಿನ ಸಸ್ಯ ಸ್ಕ್ಯಾನ್ ಫಲಿತಾಂಶಗಳು</string>
+
+    <string name="no_history">
+        ಯಾವುದೇ ಸ್ಕ್ಯಾನ್ ಇತಿಹಾಸ ಲಭ್ಯವಿಲ್ಲ
+    </string>
+
+    <string name="plant">ಸಸ್ಯ</string>
+    <string name="info">ಮಾಹಿತಿ</string>
+    <string name="delete">ಅಳಿಸಿ</string>
+
+    <string name="history_image">ಇತಿಹಾಸದ ಚಿತ್ರ</string>
+
+
+    <!-- ========================================================= -->
+    <!-- HISTORY DIALOG -->
+    <!-- ========================================================= -->
+
+    <string name="plant_label">ಸಸ್ಯ :</string>
+    <string name="disease_label">ರೋಗ :</string>
+    <string name="confidence_label">ನಿಖರತೆ :</string>
+    <string name="date_label">ದಿನಾಂಕ :</string>
+    <string name="time_label">ಸಮಯ :</string>
+
+    <string name="close">ಮುಚ್ಚಿ</string>
+
+    <string name="delete_history">ಇತಿಹಾಸ ಅಳಿಸಿ</string>
+
+    <string name="delete_history_message">
+        ಈ ದಾಖಲೆಯನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿದ್ದೀರಾ?
+    </string>
+
+    <string name="cancel">ರದ್ದುಮಾಡಿ</string>
+
+
+    <!-- ========================================================= -->
+    <!-- SCAN PLANT -->
+    <!-- ========================================================= -->
+
+    <string name="scan_title">ನಿಮ್ಮ ಸಸ್ಯವನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
+
+    <string name="scan_subtitle">AI ವಿಶ್ಲೇಷಣೆಗಾಗಿ ಸಸ್ಯದ ಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ ಅಥವಾ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ</string>
+
+    <string name="scan_plant_title">ನಿಮ್ಮ ಸಸ್ಯವನ್ನು ಸ್ಕ್ಯಾನ್ ಮಾಡಿ</string>
+
+    <string name="scan_plant_subtitle">AI ವಿಶ್ಲೇಷಣೆಗಾಗಿ ಸಸ್ಯದ ಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ ಅಥವಾ ಅಪ್‌ಲೋಡ್ ಮಾಡಿ</string>
+
+    <string name="no_image_selected">ಯಾವುದೇ ಚಿತ್ರವನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿಲ್ಲ</string>
+
+    <string name="image_selected">ಚಿತ್ರವನ್ನು ಆಯ್ಕೆ ಮಾಡಲಾಗಿದೆ</string>
+
+    <string name="image_ready">ವಿಶ್ಲೇಷಣೆಗಾಗಿ ಚಿತ್ರ ಸಿದ್ಧವಾಗಿದೆ</string>
+
+    <string name="select_or_capture_image">ಫೋಟೋ ತೆಗೆದುಕೊಳ್ಳಿ ಅಥವಾ ಗ್ಯಾಲರಿಯಿಂದ ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+
+    <string name="take_photo_or_gallery">ಫೋಟೋ ತೆಗೆದುಕೊಳ್ಳಿ ಅಥವಾ ಗ್ಯಾಲರಿಯಿಂದ ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+
+    <string name="take_photo">ಫೋಟೋ ತೆಗೆದುಕೊಳ್ಳಿ</string>
+
+    <string name="gallery">ಗ್ಯಾಲರಿ</string>
+
+    <string name="choose_image">ಗ್ಯಾಲರಿಯಿಂದ ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+
+
+    <!-- ========================================================= -->
+    <!-- AI ANALYSIS -->
+    <!-- ========================================================= -->
+
+    <string name="ai_plant_analysis">AI ಸಸ್ಯ ವಿಶ್ಲೇಷಣೆ</string>
+
+    <string name="ai_analysis_description">ನಮ್ಮ AI ನಿಮ್ಮ ಸಸ್ಯದ ಚಿತ್ರವನ್ನು ವಿಶ್ಲೇಷಿಸಿ ಸಂಭವನೀಯ ರೋಗಗಳನ್ನು ಗುರುತಿಸುತ್ತದೆ.</string>
+
+    <string name="analyze_plant">ಸಸ್ಯವನ್ನು ವಿಶ್ಲೇಷಿಸಿ</string>
+
+    <string name="detect_disease">ರೋಗವನ್ನು ಪತ್ತೆಮಾಡಿ</string>
+
+    <string name="scan_tip">ಉತ್ತಮ ಫಲಿತಾಂಶಗಳಿಗಾಗಿ, ಸೋಂಕಿತ ಸಸ್ಯದ ಎಲೆಗಳ ಸ್ಪಷ್ಟವಾದ ಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ.</string>
+
+    <string name="better_results_tip">ಉತ್ತಮ ಫಲಿತಾಂಶಗಳಿಗಾಗಿ, ಸೋಂಕಿತ ಸಸ್ಯದ ಎಲೆಗಳ ಸ್ಪಷ್ಟವಾದ ಚಿತ್ರವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ.</string>
+
+
+    <!-- ========================================================= -->
+    <!-- AI DETECTION -->
+    <!-- ========================================================= -->
+
+    <string name="choose_image_first">ದಯವಿಟ್ಟು ಮೊದಲು ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ ಅಥವಾ ಫೋಟೋ ತೆಗೆದುಕೊಳ್ಳಿ!</string>
+
+    <string name="ai_detection_title">AI ಸಸ್ಯ ರೋಗ ಪತ್ತೆ</string>
+
+    <string name="analyzing_plant">ಸಸ್ಯವನ್ನು ವಿಶ್ಲೇಷಿಸಲಾಗುತ್ತಿದೆ...\nದಯವಿಟ್ಟು ಕಾಯಿರಿ...</string>
+
+    <string name="prediction_title">AI ಮುನ್ಸೂಚನೆ</string>
+
+    <string name="recommendation_label">ಶಿಫಾರಸು:</string>
+
+    <string name="ok">ಸರಿ</string>
+
+    <string name="failed_load_image">ಚಿತ್ರವನ್ನು ಲೋಡ್ ಮಾಡಲು ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+
+    <string name="camera_permission_denied">ಕ್ಯಾಮೆರಾ ಅನುಮತಿ ನಿರಾಕರಿಸಲಾಗಿದೆ</string>
+
+
+    <!-- ========================================================= -->
+    <!-- SETTINGS -->
+    <!-- ========================================================= -->
+
+    <string name="language">ಭಾಷೆ</string>
+
+    <string name="select_language">ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+
+    <string name="theme">ಥೀಮ್</string>
+
+    <string name="notifications">ಅಧಿಸೂಚನೆಗಳು</string>
+
+    <string name="about">ನಮ್ಮ ಬಗ್ಗೆ</string>
+
+    <string name="about_app">👤 ಅಪ್ಲಿಕೇಶನ್ ಬಗ್ಗೆ</string>
+
+    <string name="supported_plants">🌱 ಬೆಂಬಲಿತ ಸಸ್ಯಗಳು</string>
+
+    <string name="scan_history">🕘 ಸ್ಕ್ಯಾನ್ ಇತಿಹಾಸ</string>
+
+    <string name="share_app">📤 ಅಪ್ಲಿಕೇಶನ್ ಹಂಚಿಕೊಳ್ಳಿ</string>
+
+    <string name="rate_app">⭐ ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಮೌಲ್ಯಮಾಪನ ನೀಡಿ</string>
+
+    <string name="privacy_policy">📄 ಗೌಪ್ಯತಾ ನೀತಿ</string>
+
+
+    <!-- ========================================================= -->
+    <!-- LANGUAGE OPTIONS -->
+    <!-- ========================================================= -->
+
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="english">English</string>
+
+    <string name="language_kannada">ಕನ್ನಡ</string>
+    <string name="language_english">ಇಂಗ್ಲಿಷ್</string>
+
+
+    <!-- ========================================================= -->
+    <!-- ABOUT -->
+    <!-- ========================================================= -->
+
+    <string name="about_message">
+ಆವೃತ್ತಿ : 1.0
+
+PlantGuardAI ಎಲೆಗಳ ಚಿತ್ರಗಳನ್ನು ಬಳಸಿ ಕೃತಕ ಬುದ್ಧಿಮತ್ತೆ (AI) ಮೂಲಕ ಸಸ್ಯ ರೋಗಗಳನ್ನು ಪತ್ತೆಹಚ್ಚುತ್ತದೆ.
+
+ಈ ಅಪ್ಲಿಕೇಶನ್ ರೈತರು ಮತ್ತು ತೋಟಗಾರರಿಗೆ ಸಸ್ಯ ರೋಗಗಳನ್ನು ತ್ವರಿತವಾಗಿ ಗುರುತಿಸಲು ಅಭಿವೃದ್ಧಿಪಡಿಸಲಾಗಿದೆ.
+
+ಅಭಿವೃದ್ಧಿಪಡಿಸಿದವರು:
+ಭರತ್ ಎ
+ಕಂಪ್ಯೂಟರ್ ಸೈನ್ಸ್ ಮತ್ತು ಎಂಜಿನಿಯರಿಂಗ್
+    </string>
+
+    <string name="share_message">
+PlantGuardAI ಅನ್ನು ಪ್ರಯತ್ನಿಸಿ 🌿
+
+AI ಬಳಸಿ ಸಸ್ಯ ರೋಗಗಳನ್ನು ಸುಲಭವಾಗಿ ಪತ್ತೆಹಚ್ಚಿ.
+    </string>
+
+    <string name="playstore_coming_soon">
+        Play Store ಆವೃತ್ತಿ ಶೀಘ್ರದಲ್ಲೇ ಬರುತ್ತಿದೆ!
+    </string>
+
+    <string name="privacy_message">
+PlantGuardAI ಆಯ್ಕೆಮಾಡಿದ ಚಿತ್ರಗಳನ್ನು ರೋಗ ಪತ್ತೆಗಾಗಿ ಮಾತ್ರ ಬಳಸುತ್ತದೆ.
+
+ಯಾವುದೇ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿಯನ್ನು ಸಂಗ್ರಹಿಸಲಾಗುವುದಿಲ್ಲ.
+    </string>
+
+
+    <!-- ===================================================== -->
+    <!-- NOTIFICATIONS -->
+    <!-- ===================================================== -->
+
+    <string name="notification_channel_name">
+    PlantGuard AI ಅಧಿಸೂಚನೆಗಳು
+</string>
+
+    <string name="notification_channel_description">
+    ಸಸ್ಯದ ಆರೋಗ್ಯ ಮತ್ತು ನೀರು ಹಾಕುವ ಕುರಿತು ಅಧಿಸೂಚನೆಗಳು
+</string>
+
+    <string name="notification_plant_thirsty_title">
+    🌱 %1$s ಸಸ್ಯಕ್ಕೆ ನೀರು ಬೇಕಾಗಿದೆ!
+</string>
+
+    <string name="notification_plant_thirsty_message">
+    ಮಣ್ಣಿನ ತೇವಾಂಶ ಕೇವಲ %1$s ಇದೆ. ನೀರು ಹಾಕಲು ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ.
+</string>
+
+    <string name="notification_default_plant">
+    ಸಸ್ಯ
+</string>
+
+    <string name="notification_default_moisture">
+    ಕಡಿಮೆ
+</string>
+
+
+    <!-- ========================================================= -->
+    <!-- MISC -->
+    <!-- ========================================================= -->
+
+    <string name="welcome">ಸ್ವಾಗತ</string>
+
+    <string name="loading">ಲೋಡ್ ಆಗುತ್ತಿದೆ...</string>
+
+
+    <!-- ========================================================= -->
+    <!-- COMMON -->
+    <!-- ========================================================= -->
+
+    <string name="yes">ಹೌದು</string>
+    <string name="no">ಇಲ್ಲ</string>
+
+    <string name="save">ಉಳಿಸಿ</string>
+    <string name="done">ಮುಗಿದಿದೆ</string>
+
+    <string name="back">ಹಿಂದಕ್ಕೆ</string>
+
+    <string name="error">ದೋಷ</string>
+
+    <string name="success">ಯಶಸ್ವಿ</string>
+
+    <string name="retry">ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</string>
+
+
+    <!-- ========================================================= -->
+    <!-- FIREBASE / GOOGLE SIGN-IN -->
+    <!-- DO NOT TRANSLATE THIS VALUE -->
+    <!-- ========================================================= -->
+
+    <string
+        name="default_web_client_id"
+        translatable="false">427241812473-auibsptvmsb1llv0qr672r8bbbnn1ltr.apps.googleusercontent.com</string>
+
+</resources>

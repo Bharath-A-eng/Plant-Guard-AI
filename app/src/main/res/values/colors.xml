@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="primaryGreen">#2E7D32</color>
+    <color name="darkGreen">#1B5E20</color>
+    <color name="lightGreen">#E8F5E9</color>
+
+    <color name="background">#F6FAF7</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="textBlack">#1B1F1C</color>
+    <color name="gray">#6B746D</color>
+
+    <color name="headerLight">#D9F0DC</color>
+
+    <!-- Used by existing card_background.xml -->
+    <color name="border">#DDE7DF</color>
+
+    <!-- Used by settings_button.xml -->
+    <color name="cardBorder">#DDE7DF</color>
+    <color name="buttonPressed">#E8F5E9</color>
+
+    <color name="danger">#C62828</color>
+
+
+</resources>

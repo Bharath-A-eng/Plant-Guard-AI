@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "427241812473",
+    "project_id": "plantguardai-88396",
+    "storage_bucket": "plantguardai-88396.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427241812473:android:21d53a9d12f19381d38d28",
+        "android_client_info": {
+          "package_name": "com.rymec.plantguardai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427241812473-di3sn8tdipfokiujijomi7o2jk3psof1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rymec.plantguardai",
+            "certificate_hash": "4c7fe3cb7f5b0ba73418296e537c91596c5a91b8"
+          }
+        },
+        {
+          "client_id": "427241812473-vqi7n6gj73fubm5s03r39a51cjj7h97e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rymec.plantguardai",
+            "certificate_hash": "71387d56f6dc74a2c9aaf7a955dd78e527202edb"
+          }
+        },
+        {
+          "client_id": "427241812473-auibsptvmsb1llv0qr672r8bbbnn1ltr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQKpol7fqTgm5mCezFjYUER14bKddwb2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427241812473-auibsptvmsb1llv0qr672r8bbbnn1ltr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

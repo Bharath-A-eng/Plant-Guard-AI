@@ -1,0 +1,48 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+
+# Ignore generated Gradle and Android build files
+.gradle/
+**/build/
+
+# Android Studio project files
+.idea/
+*.iml
+
+# Local machine configuration
+local.properties
+
+# Logs and temporary files
+*.log
+log.txt
+app.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs and temporary archives
+*.log
+app.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Root-level training/conversion models
+/model_float16_quant.tflite
+/plantguard_best_model.keras

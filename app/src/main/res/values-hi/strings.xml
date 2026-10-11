@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ===================================================== -->
+    <!-- APP -->
+    <!-- ===================================================== -->
+
+    <string name="app_name">प्लांटगार्ड AI</string>
+
+    <!-- Splash -->
+    <string name="splash_title">PlantGuardAI</string>
+    <string name="splash_subtitle">एआई आधारित पौध रोग पहचान</string>
+    <string name="developer_name">द्वारा विकसित</string>
+    <string name="developer_value">भरत ए</string>
+    <string name="department">कंप्यूटर विज्ञान एवं अभियांत्रिकी</string>
+    <string name="logo_description">PlantGuardAI लोगो</string>
+
+
+    <!-- ===================================================== -->
+    <!-- REGISTER -->
+    <!-- ===================================================== -->
+
+    <string name="create_account">खाता बनाएँ</string>
+    <string name="full_name">पूरा नाम</string>
+    <string name="login_prompt">पहले से खाता है? लॉगिन करें</string>
+
+    <string name="enter_name">अपना नाम दर्ज करें</string>
+    <string name="password_length">पासवर्ड कम से कम 6 अक्षरों का होना चाहिए</string>
+    <string name="password_not_match">पासवर्ड मेल नहीं खाते</string>
+    <string name="registration_success">पंजीकरण सफल</string>
+
+
+    <!-- ===================================================== -->
+    <!-- LOGIN -->
+    <!-- ===================================================== -->
+
+    <string name="welcome_title">PlantGuardAI में आपका स्वागत है</string>
+
+    <string name="login">लॉगिन</string>
+    <string name="register">पंजीकरण</string>
+
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि करें</string>
+
+    <string name="forgot_password">पासवर्ड भूल गए?</string>
+
+    <string name="dont_have_account">क्या आपका खाता नहीं है?</string>
+    <string name="already_have_account">क्या आपका पहले से खाता है?</string>
+
+    <string name="register_prompt">क्या आपका खाता नहीं है? पंजीकरण करें</string>
+
+    <string name="or_separator">या</string>
+
+    <string name="enter_email_first">पहले अपना ईमेल दर्ज करें</string>
+    <string name="enter_email">ईमेल दर्ज करें</string>
+    <string name="enter_valid_email">मान्य ईमेल दर्ज करें</string>
+    <string name="enter_password">पासवर्ड दर्ज करें</string>
+
+    <string name="password_reset_sent">पासवर्ड रीसेट ईमेल सफलतापूर्वक भेजा गया।</string>
+
+    <string name="google_signin_failed">Google साइन-इन असफल</string>
+    <string name="google_signin_success">Google साइन-इन सफल</string>
+
+    <string name="welcome_back">वापसी पर स्वागत है!</string>
+
+    <string name="authentication_failed">प्रमाणीकरण असफल</string>
+
+
+    <!-- ===================================================== -->
+    <!-- HOME / SMART MONITORING -->
+    <!-- ===================================================== -->
+
+    <string name="home_title">PlantGuard AI</string>
+
+    <string name="home_subtitle">स्वस्थ पौधों के लिए स्मार्ट पौध निगरानी प्रणाली</string>
+
+    <string name="smart_plant_monitoring">स्मार्ट पौध निगरानी</string>
+
+    <string name="system_monitoring_active">सिस्टम निगरानी सक्रिय है</string>
+
+    <string name="plant_environment">पौधे का वातावरण</string>
+
+
+    <!-- ===================================================== -->
+    <!-- PLANT SELECTORS -->
+    <!-- ===================================================== -->
+
+    <string name="plant_1">पौधा 1</string>
+    <string name="plant_2">पौधा 2</string>
+
+    <string name="plant1">पौधा 1</string>
+    <string name="plant2">पौधा 2</string>
+
+    <string name="select_plant">पौधा चुनें</string>
+
+    <string name="tomato">टमाटर</string>
+    <string name="maize">मक्का</string>
+
+
+    <!-- ===================================================== -->
+    <!-- SENSOR LABELS -->
+    <!-- ===================================================== -->
+
+    <string name="temperature">तापमान</string>
+    <string name="humidity">आर्द्रता</string>
+    <string name="soil_moisture">मिट्टी की नमी</string>
+    <string name="light_level">प्रकाश स्तर</string>
+    <string name="water_pump">पानी का पंप</string>
+
+
+    <!-- ===================================================== -->
+    <!-- SENSOR VALUES -->
+    <!-- ===================================================== -->
+
+    <string name="temperature_value">28 °C</string>
+    <string name="temperature_low">27 °C</string>
+
+    <string name="humidity_value">65 %</string>
+    <string name="humidity_high">70 %</string>
+
+    <string name="soil_value">72 %</string>
+    <string name="soil_high">80 %</string>
+
+    <string name="temperature_plant1_default">28 °C</string>
+    <string name="temperature_plant2_default">27 °C</string>
+
+    <string name="humidity_plant1_default">65 %</string>
+    <string name="humidity_plant2_default">70 %</string>
+
+    <string name="soil_plant1_default">72 %</string>
+    <string name="soil_plant2_default">80 %</string>
+
+
+    <!-- ===================================================== -->
+    <!-- LIGHT -->
+    <!-- ===================================================== -->
+
+    <string name="good">अच्छा</string>
+    <string name="low">कम</string>
+    <string name="high">अधिक</string>
+
+
+    <!-- ===================================================== -->
+    <!-- WATER PUMP -->
+    <!-- ===================================================== -->
+
+    <string name="pump_status">स्थिति:</string>
+    <string name="on">चालू</string>
+    <string name="off">बंद</string>
+
+
+    <!-- ===================================================== -->
+    <!-- QUICK ACTIONS -->
+    <!-- ===================================================== -->
+
+    <string name="quick_actions">त्वरित क्रियाएँ</string>
+
+    <string name="scan_plant">पौधे को स्कैन करें</string>
+
+    <string name="history">इतिहास</string>
+
+    <string name="settings">सेटिंग्स</string>
+
+    <string name="logout">लॉग आउट</string>
+
+    <string name="welcome_user">स्वागत है, %1$s</string>
+
+    <string name="logged_out">सफलतापूर्वक लॉग आउट हो गया</string>
+
+
+    <!-- ===================================================== -->
+    <!-- PLANT -->
+    <!-- ===================================================== -->
+
+    <string name="healthy">स्वस्थ</string>
+    <string name="disease">रोग</string>
+    <string name="confidence">विश्वसनीयता</string>
+
+
+    <!-- ===================================================== -->
+    <!-- SUPPORTED PLANTS -->
+    <!-- ===================================================== -->
+
+    <string name="apple">सेब</string>
+
+    <string name="apple_diseases">सेब स्कैब\nब्लैक रॉट\nसीडर एप्पल रस्ट</string>
+
+    <string name="blueberry">ब्लूबेरी</string>
+
+    <string name="blueberry_diseases">स्वस्थ</string>
+
+    <string name="cherry">चेरी</string>
+
+    <string name="cherry_diseases">पाउडरी मिल्ड्यू\nस्वस्थ</string>
+
+    <string name="corn">मक्का</string>
+
+    <string name="corn_diseases">ग्रे लीफ स्पॉट\nकॉमन रस्ट\nनॉर्दर्न लीफ ब्लाइट\nस्वस्थ</string>
+
+    <string name="maize_diseases">ग्रे लीफ स्पॉट\nकॉमन रस्ट\nनॉर्दर्न लीफ ब्लाइट\nस्वस्थ</string>
+
+    <string name="grape">अंगूर</string>
+
+    <string name="grape_diseases">ब्लैक रॉट\nएस्का\nलीफ ब्लाइट\nस्वस्थ</string>
+
+    <string name="orange">संतरा</string>
+
+    <string name="orange_diseases">साइट्रस ग्रीनिंग</string>
+
+    <string name="peach">आड़ू</string>
+
+    <string name="peach_diseases">बैक्टीरियल स्पॉट\nस्वस्थ</string>
+
+    <string name="bell_pepper">शिमला मिर्च</string>
+
+    <string name="pepper_diseases">बैक्टीरियल स्पॉट\nस्वस्थ</string>
+
+    <string name="potato">आलू</string>
+
+    <string name="potato_diseases">अर्ली ब्लाइट\nलेट ब्लाइट\nस्वस्थ</string>
+
+    <string name="raspberry">रास्पबेरी</string>
+
+    <string name="raspberry_diseases">स्वस्थ</string>
+
+    <string name="soybean">सोयाबीन</string>
+
+    <string name="soybean_diseases">स्वस्थ</string>
+
+    <string name="squash">स्क्वैश</string>
+
+    <string name="squash_diseases">पाउडरी मिल्ड्यू</string>
+
+    <string name="strawberry">स्ट्रॉबेरी</string>
+
+    <string name="strawberry_diseases">लीफ स्कॉर्च\nस्वस्थ</string>
+
+    <string name="tomato_diseases">बैक्टीरियल स्पॉट\nअर्ली ब्लाइट\nलेट ब्लाइट\nलीफ मोल्ड\nसेप्टोरिया लीफ स्पॉट\nस्पाइडर माइट्स\nटार्गेट स्पॉट\nयेलो लीफ कर्ल वायरस\nटमाटर मोज़ेक वायरस\nस्वस्थ</string>
+
+    <string name="supported_plants_title">समर्थित पौधे</string>
+
+    <string name="supported_plants_subtitle">14 पौधे और 38 रोग श्रेणियाँ समर्थित</string>
+
+
+    <!-- ===================================================== -->
+    <!-- PLANT DETAILS -->
+    <!-- ===================================================== -->
+
+    <string name="plant_image">पौधे की छवि</string>
+
+    <string name="supported_diseases">समर्थित रोग</string>
+
+    <string name="care_tips">देखभाल के सुझाव</string>
+
+    <string name="prevention">रोकथाम</string>
+
+    <string name="treatment">उपचार</string>
+
+
+    <!-- ===================================================== -->
+    <!-- APPLE -->
+    <!-- ===================================================== -->
+
+    <string name="apple_care">• नियमित रूप से छँटाई करें\n• सप्ताह में एक बार गहराई से सिंचाई करें\n• पर्याप्त धूप सुनिश्चित करें</string>
+
+    <string name="apple_prevention">• गिरी हुई पत्तियाँ हटाएँ\n• पेड़ों के बीच उचित दूरी रखें\n• रोग-प्रतिरोधी किस्मों का उपयोग करें</string>
+
+    <string name="apple_treatment">• तांबा आधारित फफूंदनाशक का छिड़काव करें\n• सल्फर स्प्रे करें\n• संक्रमित शाखाओं को काटकर हटा दें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- BLUEBERRY -->
+    <!-- ===================================================== -->
+
+    <string name="blueberry_care">• मिट्टी की अम्लीयता बनाए रखें\n• नियमित रूप से पानी दें\n• पौधे के चारों ओर मल्च बिछाएँ</string>
+
+    <string name="blueberry_prevention">• पानी जमा न होने दें\n• संक्रमित शाखाएँ हटा दें\n• उचित दूरी बनाए रखें</string>
+
+    <string name="blueberry_treatment">• संक्रमित पत्तियाँ हटा दें\n• आवश्यकता होने पर फफूंदनाशक का प्रयोग करें\n• जल निकासी में सुधार करें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- CHERRY -->
+    <!-- ===================================================== -->
+
+    <string name="cherry_care">• सूखे मौसम में नियमित रूप से पानी दें\n• हर वर्ष छँटाई करें\n• पर्याप्त धूप सुनिश्चित करें</string>
+
+    <string name="cherry_prevention">• गिरी हुई पत्तियाँ साफ करें\n• ऊपर से पानी देने से बचें\n• कीटों की नियमित निगरानी करें</string>
+
+    <string name="cherry_treatment">• अनुशंसित फफूंदनाशक का छिड़काव करें\n• संक्रमित शाखाओं की छँटाई करें\n• पौधे की नियमित निगरानी करें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- CORN -->
+    <!-- ===================================================== -->
+
+    <string name="corn_care">• नियमित रूप से सिंचाई करें\n• नाइट्रोजन उर्वरक का प्रयोग करें\n• खरपतवार नियमित रूप से हटाएँ</string>
+
+    <string name="corn_prevention">• फसल चक्र अपनाएँ\n• संक्रमित पौधों को हटा दें\n• अच्छी गुणवत्ता वाले बीजों का उपयोग करें</string>
+
+    <string name="corn_treatment">• अनुशंसित फफूंदनाशक का प्रयोग करें\n• संक्रमित पत्तियाँ हटा दें\n• खेत की स्वच्छता बनाए रखें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- GRAPE -->
+    <!-- ===================================================== -->
+
+    <string name="grape_care">• हर वर्ष बेलों की छँटाई करें\n• सहारा प्रदान करें\n• अधिक सिंचाई से बचें</string>
+
+    <string name="grape_prevention">• अच्छी वायु संचार बनाए रखें\n• पत्तियों को अधिक समय तक गीला न रहने दें\n• संक्रमित बेलों को हटा दें</string>
+
+    <string name="grape_treatment">• तांबा आधारित फफूंदनाशक का प्रयोग करें\n• संक्रमित बेलों को हटा दें\n• प्रभावित टहनियों की छँटाई करें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- ORANGE -->
+    <!-- ===================================================== -->
+
+    <string name="orange_care">• गहराई से सिंचाई करें\n• प्रत्येक मौसम में उर्वरक डालें\n• पर्याप्त धूप सुनिश्चित करें</string>
+
+    <string name="orange_prevention">• नियमित रूप से निरीक्षण करें\n• कीटों को नियंत्रित करें\n• संक्रमित शाखाओं को हटा दें</string>
+
+    <string name="orange_treatment">• संक्रमित शाखाओं को हटा दें\n• साइट्रस साइलिड कीटों को नियंत्रित करें\n• उपयुक्त दवा का प्रयोग करें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- PEACH -->
+    <!-- ===================================================== -->
+
+    <string name="peach_care">• प्रत्येक मौसम में छँटाई करें\n• गहराई से सिंचाई करें\n• संतुलित उर्वरक का प्रयोग करें</string>
+
+    <string name="peach_prevention">• गिरे हुए फलों को हटा दें\n• नियमित रूप से छँटाई करें\n• कीटों की निगरानी करें</string>
+
+    <string name="peach_treatment">• अनुशंसित फफूंदनाशक का प्रयोग करें\n• संक्रमित शाखाओं को हटा दें\n• पेड़ के स्वास्थ्य की नियमित जाँच करें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- BELL PEPPER -->
+    <!-- ===================================================== -->
+
+    <string name="bell_pepper_care">• नियमित रूप से पानी दें\n• पर्याप्त धूप प्रदान करें\n• क्षतिग्रस्त पत्तियों को हटा दें</string>
+
+    <string name="bell_pepper_prevention">• ऊपर से पानी देने से बचें\n• फसल चक्र अपनाएँ\n• पत्तियों की नियमित जाँच करें</string>
+
+    <string name="bell_pepper_treatment">• तांबा आधारित फफूंदनाशक का प्रयोग करें\n• संक्रमित पत्तियों को हटा दें\n• वायु संचार में सुधार करें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- POTATO -->
+    <!-- ===================================================== -->
+
+    <string name="potato_care">• मिट्टी को नम रखें\n• पौधों के चारों ओर मिट्टी चढ़ाएँ\n• जलभराव से बचें</string>
+
+    <string name="potato_prevention">• प्रमाणित बीज आलू का उपयोग करें\n• फसल चक्र अपनाएँ\n• अत्यधिक नमी से बचें</string>
+
+    <string name="potato_treatment">• तांबा आधारित फफूंदनाशक का प्रयोग करें\n• संक्रमित पौधों को हटा दें\n• जल निकासी में सुधार करें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- RASPBERRY -->
+    <!-- ===================================================== -->
+
+    <string name="raspberry_care">• पुरानी शाखाओं की छँटाई करें\n• नियमित रूप से पानी दें\n• अच्छी जल निकासी सुनिश्चित करें</string>
+
+    <string name="raspberry_prevention">• अच्छी वायु संचार बनाए रखें\n• संक्रमित शाखाओं को हटा दें\n• आसपास का क्षेत्र साफ रखें</string>
+
+    <string name="raspberry_treatment">• संक्रमित शाखाओं को हटा दें\n• आवश्यकता होने पर फफूंदनाशक का प्रयोग करें\n• वायु संचार में सुधार करें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- SOYBEAN -->
+    <!-- ===================================================== -->
+
+    <string name="soybean_care">• उचित दूरी बनाए रखें\n• फूल आने के समय सिंचाई करें\n• खेत को खरपतवार मुक्त रखें</string>
+
+    <string name="soybean_prevention">• रोग-मुक्त बीजों का उपयोग करें\n• फसल चक्र अपनाएँ\n• खेत की नियमित निगरानी करें</string>
+
+    <string name="soybean_treatment">• उपयुक्त फफूंदनाशक का प्रयोग करें\n• संक्रमित पौधों को हटा दें\n• फसल की नियमित निगरानी करें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- SQUASH -->
+    <!-- ===================================================== -->
+
+    <string name="squash_care">• मिट्टी के स्तर पर पानी दें\n• पर्याप्त धूप सुनिश्चित करें\n• संक्रमित पत्तियों को हटा दें</string>
+
+    <string name="squash_prevention">• पत्तियों को गीला होने से बचाएँ\n• संक्रमित पौधों को हटा दें\n• पौधों के बीच उचित दूरी बनाए रखें</string>
+
+    <string name="squash_treatment">• सल्फर स्प्रे करें\n• संक्रमित पत्तियों को हटा दें\n• ऊपर से पानी देने से बचें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- STRAWBERRY -->
+    <!-- ===================================================== -->
+
+    <string name="strawberry_care">• मिट्टी को नम रखें\n• पौधों के चारों ओर मल्च बिछाएँ\n• पुरानी पत्तियों को हटा दें</string>
+
+    <string name="strawberry_prevention">• संक्रमित पत्तियों को हटा दें\n• पौधों को बहुत पास-पास न लगाएँ\n• सुबह के समय सिंचाई करें</string>
+
+    <string name="strawberry_treatment">• संक्रमित पत्तियों को हटा दें\n• फफूंदनाशक का प्रयोग करें\n• अच्छी वायु संचार सुनिश्चित करें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- TOMATO -->
+    <!-- ===================================================== -->
+
+    <string name="tomato_care">• पौधे के आधार पर पानी दें\n• सहारे के लिए खूंटियों का उपयोग करें\n• क्षतिग्रस्त पत्तियों को हटा दें</string>
+
+    <string name="tomato_prevention">• पत्तियों को गीला होने से बचाएँ\n• फसल चक्र अपनाएँ\n• अच्छी वायु संचार बनाए रखें</string>
+
+    <string name="tomato_treatment">• तांबा आधारित फफूंदनाशक का प्रयोग करें\n• मैनकोज़ेब का छिड़काव करें\n• संक्रमित पत्तियों को हटा दें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- DEFAULT PREVIEW -->
+    <!-- ===================================================== -->
+
+    <string name="sample_care">• नियमित रूप से पानी दें\n• संक्रमित पत्तियों को हटा दें\n• अच्छी वायु संचार बनाए रखें</string>
+
+    <string name="sample_prevention">• अधिक पानी देने से बचें\n• स्वस्थ पौधों का उपयोग करें\n• नियमित रूप से छँटाई करें</string>
+
+    <string name="sample_treatment">• अनुशंसित फफूंदनाशक का प्रयोग करें\n• संक्रमित भागों को हटा दें\n• पौधे के स्वास्थ्य की निगरानी करें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- HISTORY -->
+    <!-- ===================================================== -->
+
+    <string name="history_title">पिछले पौध स्कैन परिणाम</string>
+
+    <string name="no_history">कोई स्कैन इतिहास उपलब्ध नहीं है</string>
+
+    <string name="plant">पौधा</string>
+
+    <string name="info">जानकारी</string>
+
+    <string name="delete">हटाएँ</string>
+
+    <string name="history_image">स्कैन की गई छवि</string>
+
+
+    <!-- History Dialog -->
+
+    <string name="plant_label">पौधा:</string>
+
+    <string name="disease_label">रोग:</string>
+
+    <string name="confidence_label">विश्वसनीयता:</string>
+
+    <string name="date_label">तारीख:</string>
+
+    <string name="time_label">समय:</string>
+
+    <string name="close">बंद करें</string>
+
+    <string name="delete_history">स्कैन इतिहास हटाएँ</string>
+
+    <string name="delete_history_message">क्या आप इस रिकॉर्ड को हटाना चाहते हैं?</string>
+
+    <string name="cancel">रद्द करें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- SCAN PLANT -->
+    <!-- ===================================================== -->
+
+    <string name="scan_title">अपने पौधे को स्कैन करें</string>
+
+    <string name="scan_subtitle">AI विश्लेषण के लिए पौधे की तस्वीर लें या अपलोड करें</string>
+
+    <string name="scan_plant_title">अपने पौधे को स्कैन करें</string>
+
+    <string name="scan_plant_subtitle">AI विश्लेषण के लिए पौधे की तस्वीर लें या अपलोड करें</string>
+
+    <string name="no_image_selected">कोई छवि चयनित नहीं है</string>
+
+    <string name="image_selected">छवि चयनित है</string>
+
+    <string name="image_ready">विश्लेषण के लिए छवि तैयार है</string>
+
+    <string name="select_or_capture_image">फोटो लें या गैलरी से कोई छवि चुनें</string>
+
+    <string name="take_photo_or_gallery">फोटो लें या गैलरी से कोई छवि चुनें</string>
+
+    <string name="take_photo">फोटो लें</string>
+
+    <string name="gallery">गैलरी</string>
+
+    <string name="choose_image">गैलरी से छवि चुनें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- AI ANALYSIS -->
+    <!-- ===================================================== -->
+
+    <string name="ai_plant_analysis">AI पौध विश्लेषण</string>
+
+    <string name="ai_analysis_description">हमारा AI आपकी पौधे की छवि का विश्लेषण करके संभावित रोगों की पहचान करेगा।</string>
+
+    <string name="analyze_plant">पौधे का विश्लेषण करें</string>
+
+    <string name="detect_disease">रोग का पता लगाएँ</string>
+
+    <string name="scan_tip">बेहतर परिणामों के लिए प्रभावित पौधे की पत्तियों की स्पष्ट तस्वीर लें।</string>
+
+    <string name="better_results_tip">बेहतर परिणामों के लिए प्रभावित पौधे की पत्तियों की स्पष्ट तस्वीर लें।</string>
+
+
+    <!-- ===================================================== -->
+    <!-- AI DETECTION -->
+    <!-- ===================================================== -->
+
+    <string name="choose_image_first">कृपया पहले एक चित्र चुनें या फोटो लें!</string>
+
+    <string name="ai_detection_title">AI पौध रोग पहचान</string>
+
+    <string name="analyzing_plant">पौधे का विश्लेषण किया जा रहा है...\nकृपया प्रतीक्षा करें...</string>
+
+    <string name="prediction_title">AI भविष्यवाणी</string>
+
+    <string name="recommendation_label">सिफारिश:</string>
+
+    <string name="ok">ठीक है</string>
+
+    <string name="failed_load_image">चित्र लोड करने में विफल। कृपया पुनः प्रयास करें।</string>
+
+    <string name="camera_permission_denied">कैमरा अनुमति अस्वीकृत</string>
+
+
+    <!-- ===================================================== -->
+    <!-- SETTINGS -->
+    <!-- ===================================================== -->
+
+    <string name="language">भाषा</string>
+
+    <string name="select_language">भाषा चुनें</string>
+
+    <string name="theme">थीम</string>
+
+    <string name="notifications">सूचनाएँ</string>
+
+    <string name="about">हमारे बारे में</string>
+
+    <string name="about_app">ऐप के बारे में</string>
+
+    <string name="supported_plants">समर्थित पौधे</string>
+
+    <string name="scan_history">स्कैन इतिहास</string>
+
+    <string name="share_app">ऐप साझा करें</string>
+
+    <string name="rate_app">ऐप को रेट करें</string>
+
+    <string name="privacy_policy">गोपनीयता नीति</string>
+
+    <string name="about_title">PlantGuardAI के बारे में</string>
+
+
+    <!-- ===================================================== -->
+    <!-- ABOUT -->
+    <!-- ===================================================== -->
+
+    <string name="about_message">PlantGuardAI
+संस्करण 1.0
+
+PlantGuardAI एक AI आधारित मोबाइल एप्लिकेशन है, जिसे कृत्रिम बुद्धिमत्ता की सहायता से पौधों की पत्तियों की तस्वीरों से रोगों की पहचान करने के लिए विकसित किया गया है। यह एप्लिकेशन किसानों, छात्रों, शोधकर्ताओं और बागवानी के शौकीनों को पौधों के रोगों की तेज़ और सटीक पहचान करने में सहायता करता है।
+
+मुख्य विशेषताएँ:
+• AI आधारित पौध रोग पहचान
+• बहुभाषी समर्थन
+• पौध स्कैन इतिहास
+• स्मार्ट पौध निगरानी
+• उपयोग में आसान इंटरफ़ेस
+
+विकसित एवं डिज़ाइन किया गया
+
+भरत ए
+
+कंप्यूटर विज्ञान एवं अभियांत्रिकी विभाग
+
+अंतिम वर्ष इंजीनियरिंग परियोजना
+2025-2026
+
+PlantGuardAI का उपयोग करने के लिए धन्यवाद।
+
+2026 PlantGuardAI. सर्वाधिकार सुरक्षित।</string>
+
+
+    <!-- ===================================================== -->
+    <!-- SHARE / PRIVACY -->
+    <!-- ===================================================== -->
+
+    <string name="share_message">PlantGuardAI आज़माएँ\n\nAI की सहायता से पौधों के रोगों की पहचान करें।</string>
+
+    <string name="playstore_coming_soon">Play Store संस्करण जल्द आ रहा है!</string>
+
+    <string name="privacy_message">PlantGuardAI केवल रोग पहचान के लिए आपके द्वारा चुनी गई छवियों का उपयोग करता है।\n\nकोई भी व्यक्तिगत जानकारी एकत्र नहीं की जाती।</string>
+
+
+
+
+    <!-- ===================================================== -->
+    <!-- NOTIFICATIONS -->
+    <!-- ===================================================== -->
+
+    <string name="notification_channel_name">
+    PlantGuard AI सूचनाएँ
+</string>
+
+    <string name="notification_channel_description">
+    पौधों के स्वास्थ्य और पानी देने से संबंधित सूचनाएँ
+</string>
+
+    <string name="notification_plant_thirsty_title">
+    🌱 %1$s पौधे को पानी की आवश्यकता है!
+</string>
+
+    <string name="notification_plant_thirsty_message">
+    मिट्टी में नमी केवल %1$s है। पौधे को पानी देने की सलाह दी जाती है।
+</string>
+
+    <string name="notification_default_plant">
+    पौधा
+</string>
+
+    <string name="notification_default_moisture">
+    कम
+</string>
+
+    <!-- ===================================================== -->
+    <!-- MISC -->
+    <!-- ===================================================== -->
+
+    <string name="welcome">स्वागत है</string>
+
+    <string name="loading">लोड हो रहा है...</string>
+
+    <string name="error">त्रुटि</string>
+
+    <string name="success">सफलता</string>
+
+    <string name="retry">पुनः प्रयास करें</string>
+
+    <string name="no_data">कोई डेटा उपलब्ध नहीं है</string>
+
+    <string name="back">वापस</string>
+
+    <string name="next">अगला</string>
+
+    <string name="continue_text">जारी रखें</string>
+
+    <string name="submit">सबमिट करें</string>
+
+    <string name="save">सहेजें</string>
+
+    <string name="get_started">शुरू करें</string>
+
+
+    <!-- ===================================================== -->
+    <!-- PERMISSIONS -->
+    <!-- ===================================================== -->
+
+    <string name="camera_permission">फोटो लेने के लिए कैमरा अनुमति आवश्यक है।</string>
+
+    <string name="storage_permission">छवि चुनने के लिए स्टोरेज अनुमति आवश्यक है।</string>
+
+
+    <!-- ===================================================== -->
+    <!-- FIREBASE -->
+    <!-- ===================================================== -->
+
+    <string name="default_web_client_id">427241812473-auibsptvmsb1llv0qr672r8bbbnn1ltr.apps.googleusercontent.com</string>
+
+</resources>

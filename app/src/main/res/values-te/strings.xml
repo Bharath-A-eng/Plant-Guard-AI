@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">ప్లాంట్‌గార్డ్ AI</string>
+
+    <!-- Splash -->
+    <string name="splash_title">PlantGuardAI</string>
+    <string name="splash_subtitle">AI ఆధారిత మొక్కల వ్యాధి గుర్తింపు</string>
+    <string name="developer_name">అభివృద్ధి చేసిన వారు</string>
+    <string name="developer_value">భరత్ A</string>
+    <string name="department">కంప్యూటర్ సైన్స్ &amp; ఇంజినీరింగ్</string>
+    <string name="logo_description">PlantGuardAI లోగో</string>
+
+    <!-- Register -->
+    <string name="create_account">ఖాతా సృష్టించండి</string>
+    <string name="full_name">పూర్తి పేరు</string>
+    <string name="login_prompt">ఇప్పటికే ఖాతా ఉందా? లాగిన్ అవ్వండి</string>
+
+    <string name="enter_name">మీ పేరు నమోదు చేయండి</string>
+    <string name="password_length">పాస్‌వర్డ్ కనీసం 6 అక్షరాలు ఉండాలి</string>
+    <string name="password_not_match">పాస్‌వర్డ్‌లు సరిపోలలేదు</string>
+    <string name="registration_success">నమోదు విజయవంతమైంది 🌿</string>
+
+    <!-- Login -->
+    <string name="welcome_title">PlantGuardAI కు స్వాగతం</string>
+
+    <string name="login">లాగిన్</string>
+    <string name="register">నమోదు</string>
+
+    <string name="email">ఇమెయిల్</string>
+    <string name="password">పాస్‌వర్డ్</string>
+    <string name="confirm_password">పాస్‌వర్డ్‌ను నిర్ధారించండి</string>
+
+    <string name="forgot_password">పాస్‌వర్డ్ మర్చిపోయారా?</string>
+
+    <string name="dont_have_account">ఖాతా లేదా?</string>
+    <string name="already_have_account">ఇప్పటికే ఖాతా ఉందా?</string>
+
+    <string name="register_prompt">ఖాతా లేదా? నమోదు చేసుకోండి</string>
+
+    <string name="or_separator">──────── లేదా ────────</string>
+
+    <string name="enter_email_first">ముందుగా మీ ఇమెయిల్ నమోదు చేయండి</string>
+    <string name="enter_email">ఇమెయిల్ నమోదు చేయండి</string>
+    <string name="enter_valid_email">చెల్లుబాటు అయ్యే ఇమెయిల్ నమోదు చేయండి</string>
+    <string name="enter_password">పాస్‌వర్డ్ నమోదు చేయండి</string>
+
+    <string name="password_reset_sent">పాస్‌వర్డ్ రీసెట్ ఇమెయిల్ విజయవంతంగా పంపబడింది.</string>
+
+    <string name="google_signin_failed">Google సైన్-ఇన్ విఫలమైంది</string>
+    <string name="google_signin_success">Google సైన్-ఇన్ విజయవంతమైంది 🌿</string>
+
+    <string name="welcome_back">మళ్లీ స్వాగతం! 🌿</string>
+
+    <string name="authentication_failed">ప్రామాణీకరణ విఫలమైంది</string>
+
+    <!-- Home -->
+    <string name="temperature">ఉష్ణోగ్రత</string>
+    <string name="humidity">తేమ</string>
+    <string name="soil_moisture">నేల తేమ</string>
+    <string name="light_level">వెలుతురు స్థాయి</string>
+    <string name="water_pump">నీటి పంపు</string>
+
+    <string name="scan_plant">మొక్కను స్కాన్ చేయండి</string>
+    <string name="history">చరిత్ర</string>
+    <string name="settings">సెట్టింగులు</string>
+    <string name="logout">లాగ్ అవుట్</string>
+
+    <!-- Plant -->
+    <string name="healthy">ఆరోగ్యకరం</string>
+    <string name="disease">వ్యాధి</string>
+    <string name="confidence">ఖచ్చితత్వం</string>
+
+    <!-- Supported Plants -->
+
+    <string name="apple">ఆపిల్</string>
+    <string name="apple_diseases">ఆపిల్ స్క్యాబ్\nబ్లాక్ రాట్\nసీడర్ ఆపిల్ రస్ట్</string>
+
+    <string name="blueberry">బ్లూబెర్రీ</string>
+    <string name="blueberry_diseases">ఆరోగ్యకరం</string>
+
+    <string name="cherry">చెర్రీ</string>
+    <string name="cherry_diseases">పౌడరీ మిల్డ్యూ\nఆరోగ్యకరం</string>
+
+    <string name="corn">మొక్కజొన్న</string>
+    <string name="corn_diseases">గ్రే లీఫ్ స్పాట్\nకామన్ రస్ట్\nనార్తర్న్ లీఫ్ బ్లైట్\nఆరోగ్యకరం</string>
+
+    <string name="grape">ద్రాక్ష</string>
+    <string name="grape_diseases">బ్లాక్ రాట్\nఎస్కా\nలీఫ్ బ్లైట్\nఆరోగ్యకరం</string>
+
+    <string name="orange">నారింజ</string>
+    <string name="orange_diseases">సిట్రస్ గ్రీనింగ్</string>
+
+    <string name="peach">పీచ్</string>
+    <string name="peach_diseases">బ్యాక్టీరియల్ స్పాట్\nఆరోగ్యకరం</string>
+
+    <string name="bell_pepper">క్యాప్సికం</string>
+    <string name="pepper_diseases">బ్యాక్టీరియల్ స్పాట్\nఆరోగ్యకరం</string>
+
+    <string name="potato">బంగాళాదుంప</string>
+    <string name="potato_diseases">ఎర్లీ బ్లైట్\nలేట్ బ్లైట్\nఆరోగ్యకరం</string>
+
+    <string name="raspberry">రాస్ప్బెర్రీ</string>
+    <string name="raspberry_diseases">ఆరోగ్యకరం</string>
+
+    <string name="soybean">సోయాబీన్</string>
+    <string name="soybean_diseases">ఆరోగ్యకరం</string>
+
+    <string name="squash">స్క్వాష్</string>
+    <string name="squash_diseases">పౌడరీ మిల్డ్యూ</string>
+
+    <string name="strawberry">స్ట్రాబెర్రీ</string>
+    <string name="strawberry_diseases">లీఫ్ స్కార్చ్\nఆరోగ్యకరం</string>
+
+    <string name="tomato">టమాట</string>
+    <string name="tomato_diseases">బ్యాక్టీరియల్ స్పాట్\nఎర్లీ బ్లైట్\nలేట్ బ్లైట్\nలీఫ్ మోల్డ్\nసెప్టోరియా లీఫ్ స్పాట్\nస్పైడర్ మైట్స్\nటార్గెట్ స్పాట్\nయెల్లో లీఫ్ కర్ల్ వైరస్\nటమాటో మొజాయిక్ వైరస్\nఆరోగ్యకరం</string>
+
+    <string name="supported_plants_title">🌿 మద్దతు ఉన్న మొక్కలు</string>
+
+    <string name="supported_plants_subtitle">14 మొక్కలు • 38 వ్యాధి వర్గాలకు మద్దతు</string>
+
+    <!-- Plant Details -->
+
+    <string name="plant_image">మొక్క చిత్రం</string>
+
+    <string name="supported_diseases">🦠 మద్దతు ఉన్న వ్యాధులు</string>
+
+    <string name="care_tips">🌱 సంరక్షణ చిట్కాలు</string>
+
+    <string name="prevention">🛡 నివారణ</string>
+
+    <string name="treatment">💊 చికిత్స</string>
+
+    <!-- ================= APPLE ================= -->
+
+    <string name="apple_care">• సోకిన ఆకులు మరియు కొమ్మలను తొలగించండి\n• చెట్టు చుట్టూ మంచి గాలి ప్రసరణ ఉండేలా చూసుకోండి\n• అవసరమైనప్పుడు మాత్రమే నీరు పెట్టండి</string>
+
+    <string name="apple_prevention">• నేలపై పడిన ఆకులను తొలగించండి\n• చెట్ల మధ్య సరైన దూరాన్ని పాటించండి\n• వ్యాధి నిరోధక రకాలను ఉపయోగించండి</string>
+
+    <string name="apple_treatment">• రాగి ఆధారిత ఫంగిసైడ్‌ను పిచికారీ చేయండి\n• సల్ఫర్ పిచికారీ చేయండి\n• సోకిన కొమ్మలను కత్తిరించి తొలగించండి</string>
+
+    <!-- ================= BLUEBERRY ================= -->
+
+    <string name="blueberry_care">• నేల యొక్క ఆమ్లత్వాన్ని నిర్వహించండి\n• క్రమం తప్పకుండా నీరు పెట్టండి\n• మొక్క చుట్టూ మల్చ్ వేయండి</string>
+
+    <string name="blueberry_prevention">• నీరు నిల్వ ఉండకుండా చూసుకోండి\n• సోకిన కొమ్మలను తొలగించండి\n• సరైన దూరాన్ని పాటించండి</string>
+
+    <string name="blueberry_treatment">• సోకిన ఆకులను తొలగించండి\n• అవసరమైతే ఫంగిసైడ్ ఉపయోగించండి\n• నీరు బయటకు వెళ్లే వ్యవస్థను మెరుగుపరచండి</string>
+
+    <!-- ================= CHERRY ================= -->
+
+    <string name="cherry_care">• వేసవిలో క్రమం తప్పకుండా నీరు పెట్టండి\n• ప్రతి సంవత్సరం కొమ్మలను కత్తిరించండి\n• తగినంత సూర్యరశ్మి అందేలా చూడండి</string>
+
+    <string name="cherry_prevention">• పడిపోయిన ఆకులను శుభ్రం చేయండి\n• పై నుండి నీరు పోయడం నివారించండి\n• కీటకాల కోసం క్రమం తప్పకుండా పరిశీలించండి</string>
+
+    <string name="cherry_treatment">• సూచించిన ఫంగిసైడ్‌ను ఉపయోగించండి\n• సోకిన కొమ్మలను తొలగించండి\n• మొక్కను క్రమం తప్పకుండా పరిశీలించండి</string>
+
+    <!-- ================= CORN ================= -->
+
+    <string name="corn_care">• క్రమం తప్పకుండా నీరు పెట్టండి\n• నైట్రోజన్ ఎరువును ఉపయోగించండి\n• కలుపు మొక్కలను తొలగించండి</string>
+
+    <string name="corn_prevention">• పంట మార్పిడి చేయండి\n• సోకిన మొక్కలను తొలగించండి\n• నాణ్యమైన విత్తనాలను ఉపయోగించండి</string>
+
+    <string name="corn_treatment">• సూచించిన ఫంగిసైడ్‌ను ఉపయోగించండి\n• సోకిన ఆకులను తొలగించండి\n• పొలాన్ని శుభ్రంగా ఉంచండి</string>
+
+    <!-- ================= GRAPE ================= -->
+
+    <string name="grape_care">• ప్రతి సంవత్సరం తీగలను కత్తిరించండి\n• సరైన మద్దతు ఇవ్వండి\n• అధికంగా నీరు పెట్టవద్దు</string>
+
+    <string name="grape_prevention">• మంచి గాలి ప్రసరణ ఉండేలా చూడండి\n• ఆకులు తడిగా ఉండకుండా చూసుకోండి\n• సోకిన తీగలను తొలగించండి</string>
+
+    <string name="grape_treatment">• రాగి ఆధారిత ఫంగిసైడ్‌ను ఉపయోగించండి\n• సోకిన తీగలను తొలగించండి\n• దెబ్బతిన్న కొమ్మలను కత్తిరించండి</string>
+
+    <!-- ================= ORANGE ================= -->
+
+    <string name="orange_care">• లోతుగా నీరు పెట్టండి\n• ప్రతి సీజన్‌లో ఎరువు వేయండి\n• తగినంత సూర్యరశ్మి అందేలా చూడండి</string>
+
+    <string name="orange_prevention">• క్రమం తప్పకుండా పరిశీలించండి\n• కీటకాలను నియంత్రించండి\n• సోకిన కొమ్మలను తొలగించండి</string>
+
+    <string name="orange_treatment">• సోకిన కొమ్మలను తొలగించండి\n• సైలిడ్ కీటకాలను నియంత్రించండి\n• తగిన మందును ఉపయోగించండి</string>
+
+    <!-- ================= PEACH ================= -->
+
+    <string name="peach_care">• ప్రతి సీజన్‌లో కొమ్మలను కత్తిరించండి\n• లోతుగా నీరు పోయండి\n• సమతుల్య ఎరువును ఉపయోగించండి</string>
+
+    <string name="peach_prevention">• పడిపోయిన పండ్లను తొలగించండి\n• క్రమం తప్పకుండా కొమ్మలను కత్తిరించండి\n• పురుగులను పర్యవేక్షించండి</string>
+
+    <string name="peach_treatment">• సిఫార్సు చేసిన శిలీంద్రనాశకాన్ని పిచికారీ చేయండి\n• సోకిన కొమ్మలను తొలగించండి\n• చెట్టు ఆరోగ్యాన్ని పర్యవేక్షించండి</string>
+
+    <!-- ================= BELL PEPPER ================= -->
+
+    <string name="bell_pepper_care">• క్రమం తప్పకుండా నీరు పోయండి\n• తగినంత సూర్యకాంతి అందించండి\n• దెబ్బతిన్న ఆకులను తొలగించండి</string>
+
+    <string name="bell_pepper_prevention">• పై నుండి నీరు పోయడం నివారించండి\n• పంట మార్పిడి చేయండి\n• ఆకులను క్రమం తప్పకుండా పరిశీలించండి</string>
+
+    <string name="bell_pepper_treatment">• రాగి ఆధారిత శిలీంద్రనాశకాన్ని పిచికారీ చేయండి\n• సోకిన ఆకులను తొలగించండి\n• గాలి ప్రసరణను మెరుగుపరచండి</string>
+
+    <!-- ================= POTATO ================= -->
+
+    <string name="potato_care">• మట్టిని తేమగా ఉంచండి\n• మొక్కల చుట్టూ మట్టిని ఎత్తండి\n• నీరు నిల్వ కాకుండా చూడండి</string>
+
+    <string name="potato_prevention">• ధృవీకరించిన విత్తన బంగాళాదుంపలను ఉపయోగించండి\n• పంట మార్పిడి చేయండి\n• అధిక తేమను నివారించండి</string>
+
+    <string name="potato_treatment">• రాగి ఆధారిత శిలీంద్రనాశకాన్ని పిచికారీ చేయండి\n• సోకిన మొక్కలను తొలగించండి\n• నీటి పారుదల మెరుగుపరచండి</string>
+
+    <!-- ================= RASPBERRY ================= -->
+
+    <string name="raspberry_care">• పాత కొమ్మలను కత్తిరించండి\n• క్రమం తప్పకుండా నీరు పోయండి\n• మంచి నీటి పారుదల కల్పించండి</string>
+
+    <string name="raspberry_prevention">• మంచి గాలి ప్రసరణను నిర్వహించండి\n• సోకిన కొమ్మలను తొలగించండి\n• పరిసరాలను శుభ్రంగా ఉంచండి</string>
+
+    <string name="raspberry_treatment">• సోకిన కొమ్మలను తొలగించండి\n• అవసరమైతే శిలీంద్రనాశకాన్ని ఉపయోగించండి\n• గాలి ప్రసరణను మెరుగుపరచండి</string>
+
+    <!-- ================= SOYBEAN ================= -->
+
+    <string name="soybean_care">• సరైన మొక్కల మధ్య దూరం పాటించండి\n• పుష్పించే సమయంలో నీరు పోయండి\n• పొలాన్ని కలుపు మొక్కలు లేకుండా ఉంచండి</string>
+
+    <string name="soybean_prevention">• వ్యాధి రహిత విత్తనాలను ఉపయోగించండి\n• పంట మార్పిడి చేయండి\n• పొలాన్ని క్రమం తప్పకుండా పరిశీలించండి</string>
+
+    <string name="soybean_treatment">• తగిన శిలీంద్రనాశకాన్ని ఉపయోగించండి\n• సోకిన మొక్కలను తొలగించండి\n• పంటను క్రమం తప్పకుండా పర్యవేక్షించండి</string>
+
+    <!-- ================= SQUASH ================= -->
+
+    <string name="squash_care">• మట్టి స్థాయిలోనే నీరు పోయండి\n• తగినంత సూర్యకాంతి అందించండి\n• సోకిన ఆకులను తొలగించండి</string>
+
+    <string name="squash_prevention">• ఆకులు తడవకుండా చూడండి\n• సోకిన మొక్కలను తొలగించండి\n• మొక్కల మధ్య సరైన దూరం ఉంచండి</string>
+
+    <string name="squash_treatment">• గంధక (సల్ఫర్) పిచికారీ చేయండి\n• సోకిన ఆకులను తొలగించండి\n• పై నుండి నీరు పోయడం నివారించండి</string>
+
+    <!-- ================= STRAWBERRY ================= -->
+
+    <string name="strawberry_care">• మట్టిని తేమగా ఉంచండి\n• మొక్కల చుట్టూ మల్చింగ్ చేయండి\n• పాత ఆకులను తొలగించండి</string>
+
+    <string name="strawberry_prevention">• సోకిన ఆకులను తొలగించండి\n• మొక్కలను ఎక్కువగా దగ్గరగా నాటవద్దు\n• ఉదయం వేళల్లో నీరు పోయండి</string>
+
+    <string name="strawberry_treatment">• సోకిన ఆకులను తొలగించండి\n• శిలీంద్రనాశకాన్ని ఉపయోగించండి\n• మంచి గాలి ప్రసరణ కల్పించండి</string>
+
+    <!-- ================= TOMATO ================= -->
+
+    <string name="tomato_care">• మొక్క వేర్ల దగ్గర నీరు పోయండి\n• కర్రలతో మొక్కకు మద్దతు ఇవ్వండి\n• దెబ్బతిన్న ఆకులను తొలగించండి</string>
+
+    <string name="tomato_prevention">• ఆకులు తడవకుండా చూడండి\n• పంట మార్పిడి చేయండి\n• మంచి గాలి ప్రసరణ కల్పించండి</string>
+
+    <string name="tomato_treatment">• రాగి ఆధారిత శిలీంద్రనాశకాన్ని పిచికారీ చేయండి\n• మాంకోజెబ్ మందును పిచికారీ చేయండి\n• సోకిన ఆకులను తొలగించండి</string>
+
+    <!-- ================= DEFAULT PREVIEW ================= -->
+
+    <string name="sample_care">• క్రమం తప్పకుండా నీరు పెట్టండి\n• సోకిన ఆకులను తొలగించండి\n• మంచి గాలి ప్రసరణ ఉండేలా చూసుకోండి</string>
+
+    <string name="sample_prevention">• అధికంగా నీరు పెట్టవద్దు\n• ఆరోగ్యకరమైన మొక్కలను ఉపయోగించండి\n• క్రమం తప్పకుండా కొమ్మలను కత్తిరించండి</string>
+
+    <string name="sample_treatment">• సిఫార్సు చేసిన ఫంగిసైడ్‌ను ఉపయోగించండి\n• సోకిన భాగాలను తొలగించండి\n• మొక్క ఆరోగ్యాన్ని క్రమం తప్పకుండా పరిశీలించండి</string>
+
+    <!-- History -->
+    <string name="history_title">మునుపటి మొక్కల స్కాన్ ఫలితాలు</string>
+    <string name="no_history">స్కాన్ చరిత్ర అందుబాటులో లేదు</string>
+
+    <string name="plant">మొక్క</string>
+    <string name="plant_label">మొక్క :</string>
+    <string name="disease_label">వ్యాధి :</string>
+    <string name="confidence_label">ఖచ్చితత్వం :</string>
+    <string name="date_label">తేదీ :</string>
+    <string name="time_label">సమయం :</string>
+
+    <string name="history_image">చరిత్ర చిత్రం</string>
+
+    <string name="close">మూసివేయి</string>
+
+    <string name="info">సమాచారం</string>
+
+    <string name="delete">తొలగించు</string>
+
+    <string name="delete_history">చరిత్రను తొలగించు</string>
+
+    <string name="delete_history_message">ఈ చరిత్ర రికార్డును తొలగించాలనుకుంటున్నారా?</string>
+
+    <string name="cancel">రద్దు</string>
+
+    <!-- ================= SCAN PLANT ================= -->
+
+    <string name="scan_title">మీ మొక్కను స్కాన్ చేయండి</string>
+
+    <string name="scan_subtitle">AI విశ్లేషణ కోసం మొక్క ఫోటో తీయండి లేదా చిత్రాన్ని అప్‌లోడ్ చేయండి</string>
+
+    <string name="scan_plant_title">మీ మొక్కను స్కాన్ చేయండి</string>
+
+    <string name="scan_plant_subtitle">AI విశ్లేషణ కోసం మొక్క ఫోటో తీయండి లేదా చిత్రాన్ని అప్‌లోడ్ చేయండి</string>
+
+    <string name="no_image_selected">ఏ చిత్రం ఎంచుకోబడలేదు</string>
+
+    <string name="image_selected">చిత్రం ఎంచుకోబడింది</string>
+
+    <string name="image_ready">విశ్లేషణ కోసం చిత్రం సిద్ధంగా ఉంది</string>
+
+    <string name="select_or_capture_image">ఫోటో తీయండి లేదా గ్యాలరీ నుండి చిత్రాన్ని ఎంచుకోండి</string>
+
+    <string name="take_photo_or_gallery">ఫోటో తీయండి లేదా గ్యాలరీ నుండి చిత్రాన్ని ఎంచుకోండి</string>
+
+    <string name="take_photo">📷 ఫోటో తీయండి</string>
+
+    <string name="gallery">గ్యాలరీ</string>
+
+    <string name="choose_image">📁 గ్యాలరీ నుండి చిత్రాన్ని ఎంచుకోండి</string>
+
+    <!-- ================= AI ANALYSIS ================= -->
+
+    <string name="ai_plant_analysis">AI మొక్కల విశ్లేషణ</string>
+
+    <string name="ai_analysis_description">మా AI మీ మొక్క చిత్రాన్ని విశ్లేషించి, సంభావ్య వ్యాధులను గుర్తిస్తుంది.</string>
+
+    <string name="analyze_plant">మొక్కను విశ్లేషించండి</string>
+
+    <string name="detect_disease">🤖 వ్యాధిని గుర్తించండి</string>
+
+    <string name="scan_tip">మెరుగైన ఫలితాల కోసం ప్రభావితమైన మొక్క ఆకుల స్పష్టమైన చిత్రాన్ని తీయండి.</string>
+
+    <string name="better_results_tip">మెరుగైన ఫలితాల కోసం ప్రభావితమైన మొక్క ఆకుల స్పష్టమైన చిత్రాన్ని తీయండి.</string>
+
+    <!-- ================= AI DETECTION ================= -->
+
+    <string name="choose_image_first">దయచేసి ముందుగా ఒక చిత్రాన్ని ఎంచుకోండి లేదా ఫోటో తీయండి!</string>
+
+    <string name="ai_detection_title">AI మొక్కల వ్యాధి గుర్తింపు</string>
+
+    <string name="analyzing_plant">మొక్కను విశ్లేషిస్తోంది...\nదయచేసి వేచి ఉండండి...</string>
+
+    <string name="prediction_title">AI అంచనా</string>
+
+    <string name="recommendation_label">సిఫార్సు:</string>
+
+    <string name="ok">సరే</string>
+
+    <string name="failed_load_image">చిత్రాన్ని లోడ్ చేయడం విఫలమైంది. దయచేసి మళ్లీ ప్రయత్నించండి.</string>
+
+    <string name="camera_permission_denied">కెమెరా అనుమతి నిరాకరించబడింది</string>
+
+    <!-- Settings -->
+
+    <string name="language">భాష</string>
+
+    <string name="select_language">భాషను ఎంచుకోండి</string>
+
+    <string name="theme">థీమ్</string>
+
+    <string name="notifications">నోటిఫికేషన్లు</string>
+
+    <string name="about">మా గురించి</string>
+
+    <string name="about_app">👤 యాప్ గురించి</string>
+
+    <string name="supported_plants">🌱 మద్దతు ఉన్న మొక్కలు</string>
+
+    <string name="scan_history">🕘 స్కాన్ చరిత్ర</string>
+
+    <string name="share_app">📤 యాప్‌ను పంచుకోండి</string>
+
+    <string name="rate_app">⭐ యాప్‌కు రేటింగ్ ఇవ్వండి</string>
+
+    <string name="privacy_policy">📄 గోప్యతా విధానం</string>
+
+    <string name="about_title">🌿 ప్లాంట్‌గార్డ్ AI</string>
+
+    <string name="about_message">వెర్షన్ : 1.0\n\nPlantGuardAI ఆకుల చిత్రాలను ఉపయోగించి AI ద్వారా మొక్కల వ్యాధులను గుర్తిస్తుంది.\n\nరైతులు మరియు తోటపని ఆసక్తి ఉన్నవారికి మొక్కల వ్యాధులను త్వరగా గుర్తించడంలో సహాయపడటానికి ఈ యాప్ అభివృద్ధి చేయబడింది.\n\nఅభివృద్ధి చేసిన వారు:\nభరత్ A\nకంప్యూటర్ సైన్స్ &amp; ఇంజినీరింగ్</string>
+
+    <string name="share_message">PlantGuardAI ను ప్రయత్నించండి 🌿\n\nAI ఉపయోగించి మొక్కల వ్యాధులను సులభంగా గుర్తించండి.</string>
+
+    <string name="playstore_coming_soon">Play Store వెర్షన్ త్వరలో వస్తోంది!</string>
+
+    <string name="privacy_message">PlantGuardAI ఎంచుకున్న చిత్రాలను వ్యాధి గుర్తింపు కోసం మాత్రమే ఉపయోగిస్తుంది.\n\nఎటువంటి వ్యక్తిగత సమాచారాన్ని సేకరించదు.</string>
+
+    <!-- ===================================================== -->
+    <!-- NOTIFICATIONS -->
+    <!-- ===================================================== -->
+
+    <string name="notification_channel_name">
+    PlantGuard AI నోటిఫికేషన్‌లు
+</string>
+
+    <string name="notification_channel_description">
+    మొక్కల ఆరోగ్యం మరియు నీరు పోయడం గురించి నోటిఫికేషన్‌లు
+</string>
+
+    <string name="notification_plant_thirsty_title">
+    🌱 %1$s మొక్కకు నీరు అవసరం!
+</string>
+
+    <string name="notification_plant_thirsty_message">
+    మట్టిలో తేమ %1$s మాత్రమే ఉంది. మొక్కకు నీరు పోయాలని సిఫార్సు చేయబడింది.
+</string>
+
+    <string name="notification_default_plant">
+    మొక్క
+</string>
+
+    <string name="notification_default_moisture">
+    తక్కువ
+</string>
+
+    <!-- Misc -->
+
+    <string name="on">ఆన్</string>
+
+    <string name="off">ఆఫ్</string>
+
+    <string name="good">మంచిది</string>
+
+    <string name="low">తక్కువ</string>
+
+    <string name="welcome">స్వాగతం</string>
+
+    <string name="loading">లోడ్ అవుతోంది...</string>
+
+    <!-- Firebase -->
+
+    <string name="default_web_client_id">427241812473-auibsptvmsb1llv0qr672r8bbbnn1ltr.apps.googleusercontent.com</string>
+
+</resources>

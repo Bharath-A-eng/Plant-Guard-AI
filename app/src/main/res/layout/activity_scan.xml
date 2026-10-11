@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- ===================================================== -->
+        <!-- HEADER -->
+        <!-- ===================================================== -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌿"
+            android:textSize="42sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scan_title"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryGreen"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/scan_subtitle"
+            android:textSize="14sp"
+            android:textColor="@color/gray"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- ===================================================== -->
+        <!-- IMAGE UPLOAD CARD -->
+        <!-- ===================================================== -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:padding="16dp"
+            android:background="@drawable/card_background">
+
+            <!-- ================================================= -->
+            <!-- IMAGE PREVIEW -->
+            <!-- ================================================= -->
+
+            <ImageView
+                android:id="@+id/imgLeaf"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/plant_image"
+                android:background="@drawable/login_field" />
+
+            <!-- ================================================= -->
+            <!-- IMAGE STATUS -->
+            <!-- ================================================= -->
+
+            <TextView
+                android:id="@+id/txtImageStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/no_image_selected"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/textBlack"
+                android:gravity="center"
+                android:maxLines="2" />
+
+            <!-- ================================================= -->
+            <!-- IMAGE HELPER TEXT -->
+            <!-- ================================================= -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/select_or_capture_image"
+                android:textSize="12sp"
+                android:textColor="@color/gray"
+                android:gravity="center"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="4dp" />
+
+        </LinearLayout>
+
+        <!-- ===================================================== -->
+        <!-- CAMERA + GALLERY BUTTONS -->
+        <!-- ===================================================== -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="18dp">
+
+            <!-- ================================================= -->
+            <!-- TAKE PHOTO -->
+            <!-- ================================================= -->
+
+            <Button
+                android:id="@+id/btnCamera"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/google_button_pressed"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="@string/take_photo"
+                android:textColor="@color/textBlack"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textAllCaps="false" />
+
+            <!-- ================================================= -->
+            <!-- GALLERY -->
+            <!-- ================================================= -->
+
+            <Button
+                android:id="@+id/btnChooseImage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="6dp"
+                android:background="@drawable/google_button_pressed"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="@string/gallery"
+                android:textColor="@color/textBlack"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+        <!-- ===================================================== -->
+        <!-- AI ANALYSIS TITLE -->
+        <!-- ===================================================== -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ai_plant_analysis"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/textBlack"
+            android:layout_marginTop="26dp"
+            android:layout_marginBottom="10dp" />
+
+        <!-- ===================================================== -->
+        <!-- AI DESCRIPTION -->
+        <!-- ===================================================== -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ai_analysis_description"
+            android:textSize="13sp"
+            android:textColor="@color/gray"
+            android:layout_marginBottom="18dp" />
+
+        <!-- ===================================================== -->
+        <!-- ANALYZE BUTTON -->
+        <!-- ===================================================== -->
+
+        <Button
+            android:id="@+id/btnDetect"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:background="@drawable/login_button_pressed"
+            android:foreground="?attr/selectableItemBackground"
+            android:text="@string/analyze_plant"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textAllCaps="false" />
+
+        <!-- ===================================================== -->
+        <!-- TIP CARD -->
+        <!-- ===================================================== -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/card_background">
+
+            <!-- ================================================= -->
+            <!-- TIP ICON -->
+            <!-- ================================================= -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="💡"
+                android:textSize="25sp"
+                android:layout_marginEnd="12dp" />
+
+            <!-- ================================================= -->
+            <!-- TIP TEXT -->
+            <!-- ================================================= -->
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/scan_tip"
+                android:textSize="13sp"
+                android:textColor="@color/gray" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

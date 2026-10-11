@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#40FFFFFF">
+
+    <item>
+
+        <selector>
+
+            <!-- Pressed -->
+
+            <item android:state_pressed="true">
+
+                <shape>
+
+                    <solid android:color="@color/darkGreen" />
+
+                    <corners android:radius="28dp" />
+
+                </shape>
+
+            </item>
+
+
+            <!-- Focused -->
+
+            <item android:state_focused="true">
+
+                <shape>
+
+                    <solid android:color="@color/primaryGreen" />
+
+                    <corners android:radius="28dp" />
+
+                </shape>
+
+            </item>
+
+
+            <!-- Normal -->
+
+            <item>
+
+                <shape>
+
+                    <solid android:color="@color/primaryGreen" />
+
+                    <corners android:radius="28dp" />
+
+                </shape>
+
+            </item>
+
+        </selector>
+
+    </item>
+
+</ripple>

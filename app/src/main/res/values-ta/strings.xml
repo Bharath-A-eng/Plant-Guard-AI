@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">பிளாண்ட் கார்டு AI</string>
+
+    <!-- Splash -->
+    <string name="splash_title">PlantGuardAI</string>
+    <string name="splash_subtitle">AI அடிப்படையிலான தாவர நோய் கண்டறிதல்</string>
+    <string name="developer_name">உருவாக்கியவர்</string>
+    <string name="developer_value">Bharath A</string>
+    <string name="department">கணினி அறிவியல் மற்றும் பொறியியல்</string>
+    <string name="logo_description">PlantGuardAI லோகோ</string>
+
+    <!-- Register -->
+    <string name="create_account">கணக்கை உருவாக்கவும்</string>
+    <string name="full_name">முழுப்பெயர்</string>
+    <string name="login_prompt">ஏற்கனவே கணக்கு உள்ளதா? உள்நுழைக</string>
+
+    <string name="enter_name">உங்கள் பெயரை உள்ளிடவும்</string>
+    <string name="password_length">கடவுச்சொல் குறைந்தது 6 எழுத்துகள் இருக்க வேண்டும்</string>
+    <string name="password_not_match">கடவுச்சொற்கள் பொருந்தவில்லை</string>
+    <string name="registration_success">பதிவு வெற்றிகரமாக முடிந்தது 🌿</string>
+
+    <!-- Login -->
+    <string name="welcome_title">PlantGuardAI-க்கு வரவேற்கிறோம்</string>
+
+    <string name="login">உள்நுழை</string>
+    <string name="register">பதிவு செய்யவும்</string>
+
+    <string name="email">மின்னஞ்சல்</string>
+    <string name="password">கடவுச்சொல்</string>
+    <string name="confirm_password">கடவுச்சொல்லை உறுதிப்படுத்தவும்</string>
+
+    <string name="forgot_password">கடவுச்சொல்லை மறந்துவிட்டீர்களா?</string>
+
+    <string name="dont_have_account">கணக்கு இல்லையா?</string>
+    <string name="already_have_account">ஏற்கனவே கணக்கு உள்ளதா?</string>
+
+    <string name="register_prompt">கணக்கு இல்லையா? பதிவு செய்யவும்</string>
+
+    <string name="or_separator">──────── அல்லது ────────</string>
+
+    <string name="enter_email_first">முதலில் மின்னஞ்சலை உள்ளிடவும்</string>
+    <string name="enter_email">மின்னஞ்சலை உள்ளிடவும்</string>
+    <string name="enter_valid_email">சரியான மின்னஞ்சலை உள்ளிடவும்</string>
+    <string name="enter_password">கடவுச்சொல்லை உள்ளிடவும்</string>
+
+    <string name="password_reset_sent">கடவுச்சொல் மீட்டமைப்பு மின்னஞ்சல் வெற்றிகரமாக அனுப்பப்பட்டது.</string>
+
+    <string name="google_signin_failed">Google உள்நுழைவு தோல்வியடைந்தது</string>
+    <string name="google_signin_success">Google உள்நுழைவு வெற்றிகரமாக முடிந்தது 🌿</string>
+
+    <string name="welcome_back">மீண்டும் வரவேற்கிறோம்! 🌿</string>
+
+    <string name="authentication_failed">அங்கீகாரம் தோல்வியடைந்தது</string>
+
+    <!-- Home -->
+    <string name="home_title">🌱 பிளாண்ட் கார்டு AI</string>
+    <string name="home_subtitle">ஸ்மார்ட் தாவர கண்காணிப்பு அமைப்பு</string>
+
+    <string name="temperature">வெப்பநிலை</string>
+    <string name="humidity">ஈரப்பதம்</string>
+    <string name="soil_moisture">மண் ஈரப்பதம்</string>
+    <string name="light_level">ஒளி நிலை</string>
+    <string name="water_pump">நீர் பம்ப்</string>
+
+    <!-- Sensor Values -->
+    <string name="temperature_value">28 °C</string>
+    <string name="temperature_low">27 °C</string>
+
+    <string name="humidity_value">65 %</string>
+    <string name="humidity_high">70 %</string>
+
+    <string name="soil_value">72 %</string>
+    <string name="soil_high">80 %</string>
+
+    <!-- Pump -->
+    <string name="pump_status">நிலை :</string>
+
+    <string name="on">ஆன்</string>
+    <string name="off">ஆஃப்</string>
+
+    <string name="good">நன்று</string>
+    <string name="low">குறைவு</string>
+
+    <string name="scan_plant">🌿 தாவரத்தை ஸ்கேன் செய்யவும்</string>
+    <string name="history">வரலாறு</string>
+    <string name="settings">அமைப்புகள்</string>
+    <string name="logout">வெளியேறு</string>
+
+    <string name="welcome_user">வரவேற்கிறோம், %1$s 🌿</string>
+
+    <string name="logged_out">வெற்றிகரமாக வெளியேறிவிட்டீர்கள்</string>
+
+    <!-- Plant -->
+    <string name="healthy">ஆரோக்கியமானது</string>
+    <string name="disease">நோய்</string>
+    <string name="confidence">நம்பகத்தன்மை</string>
+
+    <!-- ================= SUPPORTED PLANTS ================= -->
+
+    <string name="supported_plants_title">🌿 ஆதரிக்கப்படும் தாவரங்கள்</string>
+
+    <string name="supported_plants_subtitle">14 தாவரங்கள் • 38 நோய் வகைகள் ஆதரிக்கப்படுகின்றன</string>
+
+    <string name="plant_image">தாவர படம்</string>
+
+    <string name="supported_diseases">🦠 ஆதரிக்கப்படும் நோய்கள்</string>
+
+    <string name="care_tips">🌱 பராமரிப்பு குறிப்புகள்</string>
+
+    <string name="prevention">🛡 தடுப்பு</string>
+
+    <string name="treatment">💊 சிகிச்சை</string>
+
+    <!-- ================= APPLE ================= -->
+
+    <string name="apple">ஆப்பிள்</string>
+
+    <string name="apple_diseases">ஆப்பிள் ஸ்காப்\nகருப்பு அழுகல்\nசீடர் ஆப்பிள் ரஸ்ட்</string>
+
+    <string name="apple_care">• வழக்கமாக கிளைகளை வெட்டுங்கள்\n• வாரத்திற்கு ஒருமுறை ஆழமாக நீர் பாய்ச்சுங்கள்\n• போதுமான சூரிய ஒளி கிடைப்பதை உறுதி செய்யுங்கள்</string>
+
+    <string name="apple_prevention">• உதிர்ந்த இலைகளை அகற்றுங்கள்\n• மரங்களுக்கு இடையில் போதுமான இடைவெளி வையுங்கள்\n• நோய் எதிர்ப்பு திறன் கொண்ட வகைகளை பயன்படுத்துங்கள்</string>
+
+    <string name="apple_treatment">• காப்பர் பூஞ்சைக் கொல்லியைப் பயன்படுத்துங்கள்\n• கந்தகத் தெளிப்பு பயன்படுத்துங்கள்\n• பாதிக்கப்பட்ட கிளைகளை அகற்றுங்கள்</string>
+
+    <!-- ================= BLUEBERRY ================= -->
+
+    <string name="blueberry">ப்ளூபெர்ரி</string>
+
+    <string name="blueberry_diseases">ஆரோக்கியமானது</string>
+
+    <string name="blueberry_care">• மண்ணை அமிலத் தன்மையுடன் வைத்திருங்கள்\n• முறையாக நீர் பாய்ச்சுங்கள்\n• செடியைச் சுற்றி மல்வை இடுங்கள்</string>
+
+    <string name="blueberry_prevention">• நீர் தேங்குவதைத் தவிர்க்கவும்\n• நோயுற்ற கிளைகளை அகற்றுங்கள்\n• சரியான இடைவெளியை பராமரிக்கவும்</string>
+
+    <string name="blueberry_treatment">• பாதிக்கப்பட்ட இலைகளை அகற்றுங்கள்\n• தேவைப்பட்டால் பூஞ்சைக் கொல்லியைப் பயன்படுத்துங்கள்\n• நீர் வடிகாலத்தை மேம்படுத்துங்கள்</string>
+
+    <!-- ================= CHERRY ================= -->
+
+    <string name="cherry">செர்ரி</string>
+
+    <string name="cherry_diseases">பவுடரி மில்டியூ\nஆரோக்கியமானது</string>
+
+    <string name="cherry_care">• வறண்ட காலங்களில் நீர் பாய்ச்சுங்கள்\n• ஆண்டுதோறும் கிளைகளை வெட்டுங்கள்\n• முழு சூரிய ஒளி கிடைப்பதை உறுதி செய்யுங்கள்</string>
+
+    <string name="cherry_prevention">• உதிர்ந்த இலைகளை சுத்தம் செய்யுங்கள்\n• மேலிருந்து நீர் பாய்ச்சுவதைத் தவிர்க்கவும்\n• பூச்சிகளை தொடர்ந்து கண்காணிக்கவும்</string>
+
+    <string name="cherry_treatment">• பரிந்துரைக்கப்பட்ட பூஞ்சைக் கொல்லியைத் தெளிக்கவும்\n• பாதிக்கப்பட்ட கிளைகளை வெட்டுங்கள்\n• தொடர்ந்து கண்காணிக்கவும்</string>
+
+    <!-- ================= CORN ================= -->
+
+    <string name="corn">மக்காச்சோளம்</string>
+
+    <string name="corn_diseases">சாம்பல் இலைப்புள்ளி\nசாதாரண ரஸ்ட்\nவடக்கு இலை கருகல்\nஆரோக்கியமானது</string>
+
+    <string name="corn_care">• முறையாக நீர் பாய்ச்சுங்கள்\n• நைட்ரஜன் உரம் பயன்படுத்துங்கள்\n• களைகளை அகற்றுங்கள்</string>
+
+    <string name="corn_prevention">• பயிர் சுழற்சி செய்யுங்கள்\n• பாதிக்கப்பட்ட செடிகளை அகற்றுங்கள்\n• தரமான விதைகளை பயன்படுத்துங்கள்</string>
+
+    <string name="corn_treatment">• பரிந்துரைக்கப்பட்ட பூஞ்சைக் கொல்லியைப் பயன்படுத்துங்கள்\n• பாதிக்கப்பட்ட இலைகளை அகற்றுங்கள்\n• வயல் சுத்தத்தை பராமரிக்கவும்</string>
+
+    <!-- ================= GRAPE ================= -->
+
+    <string name="grape">திராட்சை</string>
+
+    <string name="grape_diseases">கருப்பு அழுகல்\nஎஸ்கா\nஇலை கருகல்\nஆரோக்கியமானது</string>
+
+    <string name="grape_care">• ஆண்டுதோறும் கொடிகளை வெட்டுங்கள்\n• தாங்கும் அமைப்பை ஏற்படுத்துங்கள்\n• அதிகமாக நீர் பாய்ச்ச வேண்டாம்</string>
+
+    <string name="grape_prevention">• நல்ல காற்றோட்டத்தை பராமரிக்கவும்\n• இலைகள் ஈரமாக இருக்க விடாதீர்கள்\n• நோயுற்ற கொடிகளை அகற்றுங்கள்</string>
+
+    <string name="grape_treatment">• செம்பு அடிப்படையிலான பூஞ்சைக் கொல்லியைப் பயன்படுத்துங்கள்\n• நோயுற்ற கொடிகளை அகற்றுங்கள்\n• பாதிக்கப்பட்ட கிளைகளை வெட்டுங்கள்</string>
+
+    <!-- ================= ORANGE ================= -->
+
+    <string name="orange">ஆரஞ்சு</string>
+
+    <string name="orange_diseases">சிட்ரஸ் கிரீனிங்</string>
+
+    <string name="orange_care">• ஆழமாக நீர் பாய்ச்சுங்கள்\n• ஒவ்வொரு பருவத்திலும் உரமிடுங்கள்\n• போதுமான சூரிய ஒளி கிடைப்பதை உறுதி செய்யுங்கள்</string>
+
+    <string name="orange_prevention">• தொடர்ந்து ஆய்வு செய்யுங்கள்\n• பூச்சிகளை கட்டுப்படுத்துங்கள்\n• நோயுற்ற கிளைகளை அகற்றுங்கள்</string>
+
+    <string name="orange_treatment">• நோயுற்ற கிளைகளை அகற்றுங்கள்\n• சிட்ரஸ் சைலிட் பூச்சிகளை கட்டுப்படுத்துங்கள்\n• பொருத்தமான மருந்தைப் பயன்படுத்துங்கள்</string>
+
+    <!-- ================= PEACH ================= -->
+
+    <string name="peach">பீச்</string>
+    <string name="peach_diseases">பாக்டீரியா புள்ளி\nஆரோக்கியமானது</string>
+
+    <string name="peach_care">• ஒவ்வொரு பருவத்திலும் கிளைகளை வெட்டுங்கள்\n• ஆழமாக நீர் பாய்ச்சுங்கள்\n• சமநிலை உரத்தைப் பயன்படுத்துங்கள்</string>
+
+    <string name="peach_prevention">• விழுந்த பழங்களை அகற்றுங்கள்\n• வழக்கமாக கிளைகளை வெட்டுங்கள்\n• பூச்சிகளை கண்காணிக்கவும்</string>
+
+    <string name="peach_treatment">• பரிந்துரைக்கப்பட்ட பூஞ்சைக் கொல்லியைத் தெளிக்கவும்\n• பாதிக்கப்பட்ட கிளைகளை அகற்றுங்கள்\n• மரத்தின் ஆரோக்கியத்தை கண்காணிக்கவும்</string>
+
+    <!-- ================= BELL PEPPER ================= -->
+
+    <string name="bell_pepper">குடை மிளகாய்</string>
+    <string name="pepper_diseases">பாக்டீரியா புள்ளி\nஆரோக்கியமானது</string>
+
+    <string name="bell_pepper_care">• முறையாக நீர் பாய்ச்சுங்கள்\n• போதுமான சூரிய ஒளி வழங்குங்கள்\n• சேதமடைந்த இலைகளை அகற்றுங்கள்</string>
+
+    <string name="bell_pepper_prevention">• மேலிருந்து நீர் பாய்ச்சுவதைத் தவிர்க்கவும்\n• பயிர் சுழற்சி செய்யுங்கள்\n• இலைகளை அடிக்கடி பரிசோதிக்கவும்</string>
+
+    <string name="bell_pepper_treatment">• செம்பு அடிப்படையிலான பூஞ்சைக் கொல்லியைப் பயன்படுத்துங்கள்\n• பாதிக்கப்பட்ட இலைகளை அகற்றுங்கள்\n• காற்றோட்டத்தை மேம்படுத்துங்கள்</string>
+
+    <!-- ================= POTATO ================= -->
+
+    <string name="potato">உருளைக்கிழங்கு</string>
+
+    <string name="potato_diseases">ஆரம்ப கருகல்\nதாமத கருகல்\nஆரோக்கியமானது</string>
+
+    <string name="potato_care">• மண்ணை ஈரமாக வைத்திருங்கள்\n• செடிகளைச் சுற்றி மண்ணை மேடுபோல் சேர்க்கவும்\n• நீர் தேங்குவதைத் தவிர்க்கவும்</string>
+
+    <string name="potato_prevention">• சான்றளிக்கப்பட்ட விதை உருளைக்கிழங்கை பயன்படுத்துங்கள்\n• பயிர் சுழற்சி செய்யுங்கள்\n• அதிக ஈரப்பதத்தைத் தவிர்க்கவும்</string>
+
+    <string name="potato_treatment">• செம்பு அடிப்படையிலான பூஞ்சைக் கொல்லியைப் பயன்படுத்துங்கள்\n• பாதிக்கப்பட்ட செடிகளை அகற்றுங்கள்\n• நீர் வடிகாலத்தை மேம்படுத்துங்கள்</string>
+
+    <!-- ================= RASPBERRY ================= -->
+
+    <string name="raspberry">ராஸ்பெர்ரி</string>
+
+    <string name="raspberry_diseases">ஆரோக்கியமானது</string>
+
+    <string name="raspberry_care">• பழைய கிளைகளை வெட்டுங்கள்\n• முறையாக நீர் பாய்ச்சுங்கள்\n• நல்ல நீர் வடிகால் வசதி ஏற்படுத்துங்கள்</string>
+
+    <string name="raspberry_prevention">• நல்ல காற்றோட்டத்தை பராமரிக்கவும்\n• நோயுற்ற கிளைகளை அகற்றுங்கள்\n• சுற்றுப்புறத்தை சுத்தமாக வைத்திருங்கள்</string>
+
+    <string name="raspberry_treatment">• பாதிக்கப்பட்ட கிளைகளை அகற்றுங்கள்\n• தேவைப்பட்டால் பூஞ்சைக் கொல்லியைப் பயன்படுத்துங்கள்\n• காற்றோட்டத்தை மேம்படுத்துங்கள்</string>
+
+    <!-- ================= SOYBEAN ================= -->
+
+    <string name="soybean">சோயாபீன்</string>
+
+    <string name="soybean_diseases">ஆரோக்கியமானது</string>
+
+    <string name="soybean_care">• சரியான இடைவெளியை பராமரிக்கவும்\n• பூக்கும் காலத்தில் நீர் பாய்ச்சுங்கள்\n• வயலை களையில்லாமல் வைத்திருங்கள்</string>
+
+    <string name="soybean_prevention">• நோயற்ற விதைகளை பயன்படுத்துங்கள்\n• பயிர் சுழற்சி செய்யுங்கள்\n• வயலை தொடர்ந்து கண்காணிக்கவும்</string>
+
+    <string name="soybean_treatment">• பொருத்தமான பூஞ்சைக் கொல்லியைப் பயன்படுத்துங்கள்\n• பாதிக்கப்பட்ட செடிகளை அகற்றுங்கள்\n• பயிரை தொடர்ந்து கண்காணிக்கவும்</string>
+
+    <!-- ================= SQUASH ================= -->
+
+    <string name="squash">ஸ்க்வாஷ்</string>
+
+    <string name="squash_diseases">பவுடரி மில்டியூ</string>
+
+    <string name="squash_care">• மண்ணின் அடிப்பகுதியில் நீர் பாய்ச்சுங்கள்\n• போதுமான சூரிய ஒளி வழங்குங்கள்\n• பாதிக்கப்பட்ட இலைகளை அகற்றுங்கள்</string>
+
+    <string name="squash_prevention">• இலைகள் ஈரமாகாமல் பார்த்துக்கொள்ளுங்கள்\n• பாதிக்கப்பட்ட செடிகளை அகற்றுங்கள்\n• சரியான இடைவெளியை பராமரிக்கவும்</string>
+
+    <string name="squash_treatment">• கந்தகத் தெளிப்பு செய்யுங்கள்\n• பாதிக்கப்பட்ட இலைகளை அகற்றுங்கள்\n• மேலிருந்து நீர் பாய்ச்சுவதைத் தவிர்க்கவும்</string>
+
+    <!-- ================= STRAWBERRY ================= -->
+
+    <string name="strawberry">ஸ்ட்ராபெர்ரி</string>
+
+    <string name="strawberry_diseases">இலை கருகல்\nஆரோக்கியமானது</string>
+
+    <string name="strawberry_care">• மண்ணை ஈரமாக வைத்திருங்கள்\n• செடிகளைச் சுற்றி மல்வை இடுங்கள்\n• பழைய இலைகளை அகற்றுங்கள்</string>
+
+    <string name="strawberry_prevention">• பாதிக்கப்பட்ட இலைகளை அகற்றுங்கள்\n• செடிகளை நெருக்கமாக நட வேண்டாம்\n• காலையில் நீர் பாய்ச்சுங்கள்</string>
+
+    <string name="strawberry_treatment">• பாதிக்கப்பட்ட இலைகளை அகற்றுங்கள்\n• பூஞ்சைக் கொல்லியைப் பயன்படுத்துங்கள்\n• நல்ல காற்றோட்டத்தை ஏற்படுத்துங்கள்</string>
+
+    <!-- ================= TOMATO ================= -->
+
+    <string name="tomato">தக்காளி</string>
+
+    <string name="tomato_diseases">பாக்டீரியா புள்ளி\nஆரம்ப கருகல்\nதாமத கருகல்\nஇலை பூஞ்சை\nசெப்டோரியா இலைப்புள்ளி\nசிலந்தி பூச்சிகள்\nஇலக்கு புள்ளி\nமஞ்சள் இலை சுருள் வைரஸ்\nதக்காளி மொசைக் வைரஸ்\nஆரோக்கியமானது</string>
+
+    <string name="tomato_care">• செடியின் வேர் பகுதியில் நீர் பாய்ச்சுங்கள்\n• குச்சிகளால் செடிக்கு ஆதரவு அளிக்கவும்\n• சேதமடைந்த இலைகளை அகற்றுங்கள்</string>
+
+    <string name="tomato_prevention">• இலைகள் ஈரமாகாமல் பார்த்துக்கொள்ளுங்கள்\n• பயிர் சுழற்சி செய்யுங்கள்\n• நல்ல காற்றோட்டத்தை பராமரிக்கவும்</string>
+
+    <string name="tomato_treatment">• செம்பு அடிப்படையிலான பூஞ்சைக் கொல்லியைப் பயன்படுத்துங்கள்\n• மான்கோசெப் மருந்தைத் தெளிக்கவும்\n• பாதிக்கப்பட்ட இலைகளை அகற்றுங்கள்</string>
+
+    <!-- ================= DEFAULT PREVIEW ================= -->
+
+    <string name="sample_care">• முறையாக நீர் பாய்ச்சுங்கள்\n• பாதிக்கப்பட்ட இலைகளை அகற்றுங்கள்\n• நல்ல காற்றோட்டத்தை பராமரிக்கவும்</string>
+
+    <string name="sample_prevention">• அதிகமாக நீர் பாய்ச்சுவதைத் தவிர்க்கவும்\n• ஆரோக்கியமான செடிகளைப் பயன்படுத்துங்கள்\n• கிளைகளை தொடர்ந்து வெட்டுங்கள்</string>
+
+    <string name="sample_treatment">• பரிந்துரைக்கப்பட்ட பூஞ்சைக் கொல்லியைப் பயன்படுத்துங்கள்\n• பாதிக்கப்பட்ட பகுதிகளை அகற்றுங்கள்\n• செடியின் ஆரோக்கியத்தை தொடர்ந்து கண்காணிக்கவும்</string>
+
+    <!-- ================= HISTORY ================= -->
+
+    <string name="history_title">முந்தைய தாவர ஸ்கேன் முடிவுகள்</string>
+    <string name="no_history">ஸ்கேன் வரலாறு இல்லை</string>
+
+    <string name="plant">தாவரம்</string>
+    <string name="info">தகவல்</string>
+    <string name="delete">நீக்கு</string>
+    <string name="history_image">வரலாற்றுப் படம்</string>
+
+    <string name="plant_label">தாவரம் :</string>
+    <string name="disease_label">நோய் :</string>
+    <string name="confidence_label">நம்பகத்தன்மை :</string>
+    <string name="date_label">தேதி :</string>
+    <string name="time_label">நேரம் :</string>
+
+    <string name="close">மூடு</string>
+
+    <string name="delete_history">வரலாற்றை நீக்கு</string>
+    <string name="delete_history_message">இந்த வரலாற்றுப் பதிவை நீக்க விரும்புகிறீர்களா?</string>
+
+    <string name="cancel">ரத்து</string>
+
+    <!-- ===================================================== -->
+    <!-- SCAN PLANT -->
+    <!-- ===================================================== -->
+
+    <string name="scan_title">உங்கள் தாவரத்தை ஸ்கேன் செய்யவும்</string>
+
+    <string name="scan_subtitle">AI பகுப்பாய்விற்காக தாவரத்தின் புகைப்படத்தை எடுக்கவும் அல்லது பதிவேற்றவும்</string>
+
+    <string name="scan_plant_title">உங்கள் தாவரத்தை ஸ்கேன் செய்யவும்</string>
+
+    <string name="scan_plant_subtitle">AI பகுப்பாய்விற்காக தாவரத்தின் புகைப்படத்தை எடுக்கவும் அல்லது பதிவேற்றவும்</string>
+
+    <string name="no_image_selected">எந்தப் படமும் தேர்ந்தெடுக்கப்படவில்லை</string>
+
+    <string name="image_selected">படம் தேர்ந்தெடுக்கப்பட்டது</string>
+
+    <string name="image_ready">பகுப்பாய்விற்காக படம் தயாராக உள்ளது</string>
+
+    <string name="select_or_capture_image">புகைப்படம் எடுக்கவும் அல்லது கேலரியில் இருந்து ஒரு படத்தைத் தேர்ந்தெடுக்கவும்</string>
+
+    <string name="take_photo_or_gallery">புகைப்படம் எடுக்கவும் அல்லது கேலரியில் இருந்து ஒரு படத்தைத் தேர்ந்தெடுக்கவும்</string>
+
+    <string name="take_photo">📷 புகைப்படம் எடுக்கவும்</string>
+
+    <string name="gallery">கேலரி</string>
+
+    <string name="choose_image">📁 கேலரியில் இருந்து படத்தைத் தேர்ந்தெடுக்கவும்</string>
+
+    <!-- ===================================================== -->
+    <!-- AI ANALYSIS -->
+    <!-- ===================================================== -->
+
+    <string name="ai_plant_analysis">AI தாவர பகுப்பாய்வு</string>
+
+    <string name="ai_analysis_description">எங்கள் AI உங்கள் தாவரத்தின் படத்தை பகுப்பாய்வு செய்து சாத்தியமான நோய்களை அடையாளம் காணும்.</string>
+
+    <string name="analyze_plant">தாவரத்தை பகுப்பாய்வு செய்யவும்</string>
+
+    <string name="detect_disease">🤖 நோயைக் கண்டறியவும்</string>
+
+    <string name="scan_tip">சிறந்த முடிவுகளுக்கு, பாதிக்கப்பட்ட தாவரத்தின் இலைகளின் தெளிவான புகைப்படத்தை எடுக்கவும்.</string>
+
+    <string name="better_results_tip">சிறந்த முடிவுகளுக்கு, பாதிக்கப்பட்ட தாவரத்தின் இலைகளின் தெளிவான புகைப்படத்தை எடுக்கவும்.</string>
+
+    <!-- ===================================================== -->
+    <!-- AI DETECTION -->
+    <!-- ===================================================== -->
+
+    <string name="choose_image_first">முதலில் ஒரு படத்தைத் தேர்ந்தெடுக்கவும் அல்லது புகைப்படம் எடுக்கவும்!</string>
+
+    <string name="ai_detection_title">AI தாவர நோய் கண்டறிதல்</string>
+
+    <string name="analyzing_plant">தாவரத்தை பகுப்பாய்வு செய்கிறது...\nதயவுசெய்து காத்திருக்கவும்...</string>
+
+    <string name="prediction_title">AI கணிப்பு</string>
+
+    <string name="recommendation_label">பரிந்துரை:</string>
+
+    <string name="ok">சரி</string>
+
+    <string name="failed_load_image">படத்தை ஏற்ற முடியவில்லை. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.</string>
+
+    <string name="camera_permission_denied">கேமரா அனுமதி மறுக்கப்பட்டது</string>
+
+    <!-- ================= SETTINGS ================= -->
+
+    <string name="language">மொழி</string>
+    <string name="select_language">மொழியைத் தேர்ந்தெடுக்கவும்</string>
+    <string name="theme">தீம்</string>
+    <string name="notifications">அறிவிப்புகள்</string>
+    <string name="about">எங்களைப் பற்றி</string>
+
+    <string name="about_app">👤 பயன்பாட்டைப் பற்றி</string>
+    <string name="supported_plants">🌱 ஆதரிக்கப்படும் தாவரங்கள்</string>
+    <string name="scan_history">🕘 ஸ்கேன் வரலாறு</string>
+    <string name="share_app">📤 பயன்பாட்டைப் பகிரவும்</string>
+    <string name="rate_app">⭐ பயன்பாட்டிற்கு மதிப்பிடுங்கள்</string>
+    <string name="privacy_policy">📄 தனியுரிமைக் கொள்கை</string>
+
+    <string name="about_title">🌿 பிளாண்ட் கார்டு AI</string>
+
+    <string name="about_message">பதிப்பு : 1.0\n\nPlantGuardAI இலைகளின் படங்களை பயன்படுத்தி செயற்கை நுண்ணறிவு (AI) மூலம் தாவர நோய்களை கண்டறிகிறது.\n\nஇந்த பயன்பாடு விவசாயிகள் மற்றும் தோட்டக்கலை ஆர்வலர்கள் தாவர நோய்களை விரைவாக அடையாளம் காண உதவுவதற்காக உருவாக்கப்பட்டுள்ளது.\n\nஉருவாக்கியவர்:\nபரத் ஏ\nகணினி அறிவியல் மற்றும் பொறியியல்</string>
+
+    <string name="share_message">PlantGuardAI-ஐ முயற்சிக்கவும் 🌿\n\nசெயற்கை நுண்ணறிவு (AI) மூலம் தாவர நோய்களை எளிதாக கண்டறியுங்கள்.</string>
+
+    <string name="playstore_coming_soon">Play Store பதிப்பு விரைவில் வருகிறது!</string>
+
+    <string name="privacy_message">PlantGuardAI தேர்ந்தெடுக்கப்பட்ட படங்களை நோய் கண்டறிதலுக்காக மட்டுமே பயன்படுத்துகிறது.\n\nஎந்தவொரு தனிப்பட்ட தகவலும் சேகரிக்கப்படாது.</string>
+
+    <!-- ===================================================== -->
+    <!-- NOTIFICATIONS -->
+    <!-- ===================================================== -->
+
+    <string name="notification_channel_name">
+    PlantGuard AI அறிவிப்புகள்
+</string>
+
+    <string name="notification_channel_description">
+    தாவர ஆரோக்கியம் மற்றும் நீர் பாய்ச்சுதல் தொடர்பான அறிவிப்புகள்
+</string>
+
+    <string name="notification_plant_thirsty_title">
+    🌱 %1$s தாவரத்திற்கு தண்ணீர் தேவை!
+</string>
+
+    <string name="notification_plant_thirsty_message">
+    மண்ணின் ஈரப்பதம் %1$s மட்டுமே உள்ளது. தாவரத்திற்கு தண்ணீர் ஊற்ற பரிந்துரைக்கப்படுகிறது.
+</string>
+
+    <string name="notification_default_plant">
+    தாவரம்
+</string>
+
+    <string name="notification_default_moisture">
+    குறைவு
+</string>
+
+    <!-- Misc -->
+    <string name="welcome">வரவேற்கிறோம்</string>
+    <string name="loading">ஏற்றப்படுகிறது...</string>
+
+    <!-- Firebase -->
+    <string name="default_web_client_id">427241812473-auibsptvmsb1llv0qr672r8bbbnn1ltr.apps.googleusercontent.com</string>
+
+</resources>

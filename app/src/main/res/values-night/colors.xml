@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <color name="primaryGreen">#81C784</color>
+    <color name="darkGreen">#2E7D32</color>
+    <color name="lightGreen">#1B2E1D</color>
+
+    <color name="background">#121712</color>
+
+    <!-- Used for cards and button backgrounds -->
+    <color name="white">#1E241F</color>
+
+    <color name="textBlack">#F1F5F1</color>
+    <color name="gray">#B5BDB6</color>
+
+    <color name="headerLight">#D9F0DC</color>
+
+    <color name="border">#38453A</color>
+    <color name="cardBorder">#38453A</color>
+
+    <color name="buttonPressed">#2A3D2C</color>
+
+    <color name="danger">#EF5350</color>
+
+</resources>
