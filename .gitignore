@@ -1,32 +1,21 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
-
-
-# Ignore generated Gradle and Android build files
+# Gradle and generated build files
 .gradle/
 **/build/
+.externalNativeBuild/
+.cxx/
+captures/
 
-# Android Studio project files
+# Android Studio and IntelliJ files
 .idea/
 *.iml
 
 # Local machine configuration
 local.properties
 
-# Logs and temporary files
+# OS files
+.DS_Store
+
+# Logs and temporary archives
 *.log
 log.txt
 app.zip
@@ -35,14 +24,6 @@ app.zip
 __pycache__/
 *.pyc
 
-# Logs and temporary archives
-*.log
-app.zip
-
-# Python cache
-__pycache__/
-*.pyc
-
-# Root-level training/conversion models
+# Root-level training models (not required by the Android app)
 /model_float16_quant.tflite
 /plantguard_best_model.keras
